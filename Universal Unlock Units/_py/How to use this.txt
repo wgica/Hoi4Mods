@@ -1,0 +1,7 @@
+search.py: searches and generates a list of locked divisions from the hoi4 or mod folder.
+generate.py: generates uuu_core_ses.txt file from the division list.
+
+Instructions for use:(use python to run .py files)
+	1. Edit the paths at the beginning of the search.py and generate.py files.
+	2, use python to run search.py, copy the generated file to the end of the large array in generate.py.
+	3, run generate.py, copy the generated file to "mod folder \common\scripted_effects", overwrite the current file

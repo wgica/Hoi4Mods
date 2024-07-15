@@ -1,0 +1,41 @@
+﻿l_simp_chinese:
+ #Kazakhstan
+ AKT_regional_unifier_national_socialism: "哈萨克国"
+ AKT_regional_unifier_national_socialism_DEF: "哈萨克国"
+ AKT_regional_unifier_national_socialism_ADJ: "哈萨克"
+ AKT_regional_unifier_ultranationalism: "哈萨克国"
+ AKT_regional_unifier_ultranationalism_DEF: "哈萨克国"
+ AKT_regional_unifier_ultranationalism_ADJ: "哈萨克"
+ 
+ ARL_regional_unifier_despotism: "哈萨克民族共和国"
+ ARL_regional_unifier_despotism_DEF: "哈萨克民族共和国"
+ ARL_regional_unifier_despotism_ADJ: "哈萨克"
+ 
+ DER_regional_unifier_despotism: "哈萨克斯坦伊斯兰共和国"
+ DER_regional_unifier_despotism_DEF: "哈萨克斯坦伊斯兰共和国"
+ DER_regional_unifier_despotism_ADJ: "哈萨克"
+ 
+ KAZ_regional_unifier_communist: "哈萨克苏维埃社会主义共和国"
+ KAZ_regional_unifier_communist_DEF: "哈萨克苏维埃社会主义共和国"
+ KAZ_regional_unifier_communist_ADJ: "哈萨克"
+ 
+ KOK_regional_unifier_despotism: "哈萨克汗国"
+ KOK_regional_unifier_despotism_DEF: "哈萨克汗国"
+ KOK_regional_unifier_despotism_ADJ: "哈萨克"
+ 
+ PAV_regional_unifier_liberal_conservatism: "哈萨克斯坦共和国"
+ PAV_regional_unifier_liberal_conservatism_DEF: "哈萨克斯坦共和国"
+ PAV_regional_unifier_liberal_conservatism_ADJ: "哈萨克"
+ PAV_regional_unifier_liberalism: "哈萨克斯坦共和国"
+ PAV_regional_unifier_liberalism_DEF: "哈萨克斯坦共和国"
+ PAV_regional_unifier_liberalism_ADJ: "哈萨克"
+ PAV_regional_unifier_conservatism: "哈萨克斯坦共和国"
+ PAV_regional_unifier_conservatism_DEF: "哈萨克斯坦共和国"
+ PAV_regional_unifier_conservatism_ADJ: "哈萨克"
+ 
+ KAZ_NPL_progressivism: "哈萨克斯坦共和国"
+ ARL_NPL_paternalism: "阿克托别共和国"
+ KAZ_NPL_progressivism_DEF: "哈萨克斯坦共和国"
+ ARL_NPL_paternalism_DEF: "阿克托别共和国"
+ KAZ_NPL_progressivism_ADJ: "哈萨克"
+ ARL_NPL_paternalism_ADJ: "阿克托别"

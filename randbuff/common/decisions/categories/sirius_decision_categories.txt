@@ -1,0 +1,6 @@
+sirius_random_traits_category = {
+	allowed = {
+		always = yes
+	}
+    priority = 999
+}

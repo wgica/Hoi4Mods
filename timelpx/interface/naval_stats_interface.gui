@@ -1,0 +1,1004 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "naval_stats_window"
+		position = { x = -500 y = 0}	
+		size = { width = 1034 height= 283 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_naval_stats_background"
+			position = { x= 110 y = 105 }
+
+		}
+		iconType ={
+			name ="close_naval_stats"
+			spriteType = "GFX_close_window"
+		    position = { x= 5 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}	
+######### Flags
+		iconType ={
+			name ="USA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 150 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="ENG"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 175 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="FRA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 200 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="JAP"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 225 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="ITA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 250 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="SOV"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 275 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="GER"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 300 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="CHI"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 325 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="POL"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 350 }
+			Orientation = "UPPER_LEFT"
+		}
+######### Carriers
+		instantTextboxType = {
+			name = "USA-CARRIER"
+			position = { x =  160 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-CARRIER"
+			position = { x =  160 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-CARRIER"
+			position = { x =  160 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-CARRIER"
+			position = { x =  160 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-CARRIER"
+			position = { x =  160 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-CARRIER"
+			position = { x =  160 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-CARRIER"
+			position = { x =  160 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-CARRIER"
+			position = { x =  160 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-CARRIER"
+			position = { x =  160 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@carrier]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### SH. Battleship
+		instantTextboxType = {
+			name = "USA-SHBATTLESHIP"
+			position = { x =  270 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-SHBATTLESHIP"
+			position = { x =  270 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-SHBATTLESHIP"
+			position = { x =  270 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-SHBATTLESHIP"
+			position = { x =  270 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-SHBATTLESHIP"
+			position = { x =  270 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-SHBATTLESHIP"
+			position = { x =  270 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-SHBATTLESHIP"
+			position = { x =  270 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-SHBATTLESHIP"
+			position = { x =  270 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-SHBATTLESHIP"
+			position = { x =  270 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@sh_battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+
+######### Battleship
+		instantTextboxType = {
+			name = "USA-BATTLESHIP"
+			position = { x =  390 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-BATTLESHIP"
+			position = { x =  390 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-BATTLESHIP"
+			position = { x =  390 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-BATTLESHIP"
+			position = { x =  390 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-BATTLESHIP"
+			position = { x =  390 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-BATTLESHIP"
+			position = { x =  390 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-BATTLESHIP"
+			position = { x =  390 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-BATTLESHIP"
+			position = { x =  390 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-BATTLESHIP"
+			position = { x =  390 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@battleship]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Battlecruiser
+		instantTextboxType = {
+			name = "USA-BATTLECRUISER"
+			position = { x =  510 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-BATTLECRUISER"
+			position = { x =  510 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-BATTLECRUISER"
+			position = { x =  510 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-BATTLECRUISER"
+			position = { x =  510 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-BATTLECRUISER"
+			position = { x =  510 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-BATTLECRUISER"
+			position = { x =  510 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-BATTLECRUISER"
+			position = { x =  510 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-BATTLECRUISER"
+			position = { x =  510 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-BATTLECRUISER"
+			position = { x =  510 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@battle_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### HeavyCruiser
+		instantTextboxType = {
+			name = "USA-HEAVYCRUISER"
+			position = { x =  630 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-HEAVYCRUISER"
+			position = { x =  630 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-HEAVYCRUISER"
+			position = { x =  630 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-HEAVYCRUISER"
+			position = { x =  630 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-HEAVYCRUISER"
+			position = { x =  630 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-HEAVYCRUISER"
+			position = { x =  630 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-HEAVYCRUISER"
+			position = { x =  630 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-HEAVYCRUISER"
+			position = { x =  630 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-HEAVYCRUISER"
+			position = { x =  630 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@heavy_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### LightCruiser
+		instantTextboxType = {
+			name = "USA-LIGHTCRUISER"
+			position = { x =  750 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-LIGHTCRUISER"
+			position = { x =  750 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-LIGHTCRUISER"
+			position = { x =  750 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-LIGHTCRUISER"
+			position = { x =  750 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-LIGHTCRUISER"
+			position = { x =  750 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-LIGHTCRUISER"
+			position = { x =  750 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-LIGHTCRUISER"
+			position = { x =  750 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-LIGHTCRUISER"
+			position = { x =  750 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-LIGHTCRUISER"
+			position = { x =  750 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@light_cruiser]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### DESTROYER
+		instantTextboxType = {
+			name = "USA-DESTROYER"
+			position = { x =  870 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-DESTROYER"
+			position = { x =  870 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-DESTROYER"
+			position = { x =  870 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-DESTROYER"
+			position = { x =  870 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-DESTROYER"
+			position = { x =  870 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-DESTROYER"
+			position = { x =  870 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-DESTROYER"
+			position = { x =  870 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-DESTROYER"
+			position = { x =  870 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-DESTROYER"
+			position = { x =  870 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@destroyer]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### SUBMARINE
+		instantTextboxType = {
+			name = "USA-SUBMARINE"
+			position = { x =  990 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-SUBMARINE"
+			position = { x =  990 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-SUBMARINE"
+			position = { x =  990 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-SUBMARINE"
+			position = { x =  990 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-SUBMARINE"
+			position = { x =  990 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-SUBMARINE"
+			position = { x =  990 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-SUBMARINE"
+			position = { x =  990 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-SUBMARINE"
+			position = { x =  990 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-SUBMARINE"
+			position = { x =  990 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships_with_type@submarine]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### TOTAL
+		instantTextboxType = {
+			name = "USA-TOTAL"
+			position = { x =  1110 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-TOTAL"
+			position = { x =  1110 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-TOTAL"
+			position = { x =  1110 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-TOTAL"
+			position = { x =  1110 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-TOTAL"
+			position = { x =  1110 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-TOTAL"
+			position = { x =  1110 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-TOTAL"
+			position = { x =  1110 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-TOTAL"
+			position = { x =  1110 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-TOTAL"
+			position = { x =  1110 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+################# Headers
+		instantTextboxType = {
+			name = "OVERVIEW"
+			position = { x =  120 y = 105 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "YVanillia Naval Stats"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-CARRIER"
+			position = { x =  150 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GCarrier"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-SHBATTLESHIP"
+			position = { x =  260 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GSH. Battleship"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-BATTLESHIP"
+			position = { x =  380 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GBattleship"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-BATTLECRUISER"
+			position = { x =  500 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GBattlecruiser"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-HEAVYCRUISER"
+			position = { x =  620 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GHeavy Cruiser"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-LIGHTCRUISER"
+			position = { x =  740 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GLight Cruiser"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-DESTROYER"
+			position = { x =  860 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GDestroyer"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "H-SUBMARINE"
+			position = { x =  980 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GSubmarine"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-TOTAL"
+			position = { x =  1100 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GTotal"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+	}
+}

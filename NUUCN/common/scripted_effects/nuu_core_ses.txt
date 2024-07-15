@@ -1,0 +1,1101 @@
+nuu_core_eff = {
+	country_lock_all_division_template = no
+	if = {
+		limit = {
+			has_template = "FFI半旅团"
+		}
+		set_division_template_lock = {
+			division_template = "FFI半旅团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "国王军"
+		}
+		set_division_template_lock = {
+			division_template = "国王军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "殖民地骑兵队"
+		}
+		set_division_template_lock = {
+			division_template = "殖民地骑兵队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "家园卫队"
+		}
+		set_division_template_lock = {
+			division_template = "家园卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "美洲驻军"
+		}
+		set_division_template_lock = {
+			division_template = "美洲驻军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "印度支那干涉部队"
+		}
+		set_division_template_lock = {
+			division_template = "印度支那干涉部队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "女王陛下的德国军团"
+		}
+		set_division_template_lock = {
+			division_template = "女王陛下的德国军团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "赤卫队"
+		}
+		set_division_template_lock = {
+			division_template = "赤卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "本土志愿军"
+		}
+		set_division_template_lock = {
+			division_template = "本土志愿军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "莫尔日师"
+		}
+		set_division_template_lock = {
+			division_template = "莫尔日师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "工人民兵"
+		}
+		set_division_template_lock = {
+			division_template = "工人民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "无政府主义旅"
+		}
+		set_division_template_lock = {
+			division_template = "无政府主义旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "卡累利阿森林游击队"
+		}
+		set_division_template_lock = {
+			division_template = "卡累利阿森林游击队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "人民旅"
+		}
+		set_division_template_lock = {
+			division_template = "人民旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "托洛茨基主义革命民兵"
+		}
+		set_division_template_lock = {
+			division_template = "托洛茨基主义革命民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "抵抗军"
+		}
+		set_division_template_lock = {
+			division_template = "抵抗军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "黑山切特尼克师"
+		}
+		set_division_template_lock = {
+			division_template = "黑山切特尼克师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "苏联志愿军"
+		}
+		set_division_template_lock = {
+			division_template = "苏联志愿军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "卡洛斯呼啸兵"
+		}
+		set_division_template_lock = {
+			division_template = "卡洛斯呼啸兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "轻装旅"
+		}
+		set_division_template_lock = {
+			division_template = "轻装旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "无政府主义民兵师"
+		}
+		set_division_template_lock = {
+			division_template = "无政府主义民兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "阿根廷志愿军"
+		}
+		set_division_template_lock = {
+			division_template = "阿根廷志愿军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "刚果雇佣军"
+		}
+		set_division_template_lock = {
+			division_template = "刚果雇佣军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "Resistance"
+		}
+		set_division_template_lock = {
+			division_template = "Resistance"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "祖国阵线民兵师"
+		}
+		set_division_template_lock = {
+			division_template = "祖国阵线民兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "骑兵师"
+		}
+		set_division_template_lock = {
+			division_template = "骑兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "流亡者"
+		}
+		set_division_template_lock = {
+			division_template = "流亡者"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "黑衫军"
+		}
+		set_division_template_lock = {
+			division_template = "黑衫军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "党属民兵卫队"
+		}
+		set_division_template_lock = {
+			division_template = "党属民兵卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "厄立特里亚班队"
+		}
+		set_division_template_lock = {
+			division_template = "厄立特里亚班队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "自由印度军团"
+		}
+		set_division_template_lock = {
+			division_template = "自由印度军团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "秘密军队"
+		}
+		set_division_template_lock = {
+			division_template = "秘密军队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "党卫军突击旅"
+		}
+		set_division_template_lock = {
+			division_template = "党卫军突击旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "Swiss Citizen Militia"
+		}
+		set_division_template_lock = {
+			division_template = "Swiss Citizen Militia"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "毛利人志愿军"
+		}
+		set_division_template_lock = {
+			division_template = "毛利人志愿军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "叙利亚干预部队"
+		}
+		set_division_template_lock = {
+			division_template = "叙利亚干预部队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "挪威人民军"
+		}
+		set_division_template_lock = {
+			division_template = "挪威人民军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "土著民兵师"
+		}
+		set_division_template_lock = {
+			division_template = "土著民兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "骆驼骑兵师"
+		}
+		set_division_template_lock = {
+			division_template = "骆驼骑兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "西非干预部队"
+		}
+		set_division_template_lock = {
+			division_template = "西非干预部队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "囚犯营"
+		}
+		set_division_template_lock = {
+			division_template = "囚犯营"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "殖民地骑警师"
+		}
+		set_division_template_lock = {
+			division_template = "殖民地骑警师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "警卫团"
+		}
+		set_division_template_lock = {
+			division_template = "警卫团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "马其顿革命军"
+		}
+		set_division_template_lock = {
+			division_template = "马其顿革命军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "森林兄弟游击队"
+		}
+		set_division_template_lock = {
+			division_template = "森林兄弟游击队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "布哈林工人民兵"
+		}
+		set_division_template_lock = {
+			division_template = "布哈林工人民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "荣誉卫队"
+		}
+		set_division_template_lock = {
+			division_template = "荣誉卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "苏联军团"
+		}
+		set_division_template_lock = {
+			division_template = "苏联军团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "德国培训师"
+		}
+		set_division_template_lock = {
+			division_template = "德国培训师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "非正规骆驼骑兵师"
+		}
+		set_division_template_lock = {
+			division_template = "非正规骆驼骑兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "警卫"
+		}
+		set_division_template_lock = {
+			division_template = "警卫"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "切特师"
+		}
+		set_division_template_lock = {
+			division_template = "切特师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "黑衫军旅"
+		}
+		set_division_template_lock = {
+			division_template = "黑衫军旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "赤军"
+		}
+		set_division_template_lock = {
+			division_template = "赤军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "惩戒步兵师"
+		}
+		set_division_template_lock = {
+			division_template = "惩戒步兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "阿拉伯雇佣军"
+		}
+		set_division_template_lock = {
+			division_template = "阿拉伯雇佣军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "托米斯拉夫皇家卫队"
+		}
+		set_division_template_lock = {
+			division_template = "托米斯拉夫皇家卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "孟加拉国解放军"
+		}
+		set_division_template_lock = {
+			division_template = "孟加拉国解放军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "芬兰黑衫军"
+		}
+		set_division_template_lock = {
+			division_template = "芬兰黑衫军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "智利祖国警卫队"
+		}
+		set_division_template_lock = {
+			division_template = "智利祖国警卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "八旗师"
+		}
+		set_division_template_lock = {
+			division_template = "八旗师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "反对派游击队"
+		}
+		set_division_template_lock = {
+			division_template = "反对派游击队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "内务人民委员部边境卫队"
+		}
+		set_division_template_lock = {
+			division_template = "内务人民委员部边境卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "共和国卫队"
+		}
+		set_division_template_lock = {
+			division_template = "共和国卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "红衫军"
+		}
+		set_division_template_lock = {
+			division_template = "红衫军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "抵抗战士"
+		}
+		set_division_template_lock = {
+			division_template = "抵抗战士"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "苏联特种旅"
+		}
+		set_division_template_lock = {
+			division_template = "苏联特种旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "救赎军"
+		}
+		set_division_template_lock = {
+			division_template = "救赎军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "国民警卫队"
+		}
+		set_division_template_lock = {
+			division_template = "国民警卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "第五纵队"
+		}
+		set_division_template_lock = {
+			division_template = "第五纵队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "非正规骆驼骑兵师丹麦旅"
+		}
+		set_division_template_lock = {
+			division_template = "非正规骆驼骑兵师丹麦旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "国民卫队旅"
+		}
+		set_division_template_lock = {
+			division_template = "国民卫队旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "可移动总部"
+		}
+		set_division_template_lock = {
+			division_template = "可移动总部"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "保皇党师团"
+		}
+		set_division_template_lock = {
+			division_template = "保皇党师团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "国际旅"
+		}
+		set_division_template_lock = {
+			division_template = "国际旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "共和警卫队"
+		}
+		set_division_template_lock = {
+			division_template = "共和警卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "工人赤卫队"
+		}
+		set_division_template_lock = {
+			division_template = "工人赤卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "托洛茨基主义农民民兵"
+		}
+		set_division_template_lock = {
+			division_template = "托洛茨基主义农民民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "抵抗军民兵"
+		}
+		set_division_template_lock = {
+			division_template = "抵抗军民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "利比亚班队"
+		}
+		set_division_template_lock = {
+			division_template = "利比亚班队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "海岸兵团"
+		}
+		set_division_template_lock = {
+			division_template = "海岸兵团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "疑兵师"
+		}
+		set_division_template_lock = {
+			division_template = "疑兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "惩戒营"
+		}
+		set_division_template_lock = {
+			division_template = "惩戒营"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "祖国阵线游击队"
+		}
+		set_division_template_lock = {
+			division_template = "祖国阵线游击队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "民兵师"
+		}
+		set_division_template_lock = {
+			division_template = "民兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "外籍军团"
+		}
+		set_division_template_lock = {
+			division_template = "外籍军团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "索马里班队"
+		}
+		set_division_template_lock = {
+			division_template = "索马里班队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "东非民兵师"
+		}
+		set_division_template_lock = {
+			division_template = "东非民兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "冲锋队"
+		}
+		set_division_template_lock = {
+			division_template = "冲锋队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "黑狮组织师"
+		}
+		set_division_template_lock = {
+			division_template = "黑狮组织师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "日本远征军"
+		}
+		set_division_template_lock = {
+			division_template = "日本远征军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "叙利亚防卫军"
+		}
+		set_division_template_lock = {
+			division_template = "叙利亚防卫军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "尼德兰国土风暴国民卫队"
+		}
+		set_division_template_lock = {
+			division_template = "尼德兰国土风暴国民卫队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "游击队"
+		}
+		set_division_template_lock = {
+			division_template = "游击队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "反剥削惩戒旅"
+		}
+		set_division_template_lock = {
+			division_template = "反剥削惩戒旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "突击卫队师"
+		}
+		set_division_template_lock = {
+			division_template = "突击卫队师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "中非武装防卫军"
+		}
+		set_division_template_lock = {
+			division_template = "中非武装防卫军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "南斯拉夫防卫军"
+		}
+		set_division_template_lock = {
+			division_template = "南斯拉夫防卫军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "公民民兵"
+		}
+		set_division_template_lock = {
+			division_template = "公民民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "联合青年旅"
+		}
+		set_division_template_lock = {
+			division_template = "联合青年旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "巴基斯坦解放军"
+		}
+		set_division_template_lock = {
+			division_template = "巴基斯坦解放军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "Citizen Militia"
+		}
+		set_division_template_lock = {
+			division_template = "Citizen Militia"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "印度支那防卫军"
+		}
+		set_division_template_lock = {
+			division_template = "印度支那防卫军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "印度民兵师"
+		}
+		set_division_template_lock = {
+			division_template = "印度民兵师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "民兵团"
+		}
+		set_division_template_lock = {
+			division_template = "民兵团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "忠良旅"
+		}
+		set_division_template_lock = {
+			division_template = "忠良旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "防卫民兵"
+		}
+		set_division_template_lock = {
+			division_template = "防卫民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "武装部队"
+		}
+		set_division_template_lock = {
+			division_template = "武装部队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "布哈林农民民兵"
+		}
+		set_division_template_lock = {
+			division_template = "布哈林农民民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "咒缚军团"
+		}
+		set_division_template_lock = {
+			division_template = "咒缚军团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "火十字团"
+		}
+		set_division_template_lock = {
+			division_template = "火十字团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "中部非洲干预部队"
+		}
+		set_division_template_lock = {
+			division_template = "中部非洲干预部队"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "步兵旅"
+		}
+		set_division_template_lock = {
+			division_template = "步兵旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "西班牙卡洛斯保皇师"
+		}
+		set_division_template_lock = {
+			division_template = "西班牙卡洛斯保皇师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "统工党青年旅"
+		}
+		set_division_template_lock = {
+			division_template = "统工党青年旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "西非国防军"
+		}
+		set_division_template_lock = {
+			division_template = "西非国防军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "国际马克思主义旅苏联特种旅银衫军团"
+		}
+		set_division_template_lock = {
+			division_template = "国际马克思主义旅苏联特种旅银衫军团"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "托洛茨基主义工人民兵"
+		}
+		set_division_template_lock = {
+			division_template = "托洛茨基主义工人民兵"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "苏丹雇佣军"
+		}
+		set_division_template_lock = {
+			division_template = "苏丹雇佣军"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "国际马克思主义旅"
+		}
+		set_division_template_lock = {
+			division_template = "国际马克思主义旅"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "厄立特里亚战士师"
+		}
+		set_division_template_lock = {
+			division_template = "厄立特里亚战士师"
+			is_locked = no
+        }
+	}
+  	if = {
+		limit = {
+			has_template = "统工党特战旅"
+		}
+		set_division_template_lock = {
+			division_template = "统工党特战旅"
+			is_locked = no
+        }
+	}
+  }

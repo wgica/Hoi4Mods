@@ -1,0 +1,8 @@
+search.py：从本体或mod文件夹中搜索并生成被锁定的编制列表
+generate.py：从编制列表中生成uuu_core_ses.txt文件
+带有_sub的是用于搜索/生成sub_unit的列表文件
+
+使用说明：(使用python运行.py文件，作者使用python3.11.5编写）
+	1、编辑search.py与generate.py文件开头的路径
+	2、使用python运行search.py，把生成的文件复制到generate.py那个大数组的最后面
+	3、运行generate.py，把生成的文件复制到 “mod文件夹\common\scripted_effects”，覆盖当前文件

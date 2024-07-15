@@ -1,0 +1,10 @@
+version="3.0.1"
+tags={
+	"Graphics"
+	"Gameplay"
+	"Utilities"
+}
+name="timelapse++"
+picture="thumbnail.png"
+supported_version="1.14.*"
+remote_file_id="3270048315"

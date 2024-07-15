@@ -1,0 +1,10 @@
+bitmapfonts = {
+
+ 	bitmapfont = {
+		name = "datefont"   
+		path = "gfx/fonts/datefont"	
+		color = 0xffffffff
+	}
+
+
+}

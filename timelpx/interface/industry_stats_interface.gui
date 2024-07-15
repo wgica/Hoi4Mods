@@ -1,0 +1,499 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "industry_stats_window"
+		position = { x = -500 y = 0}	
+		size = { width = 436 height= 283 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_industry_stats_background"
+			position = { x= 110 y = 105 }
+
+		}
+		iconType ={
+			name ="close_industry_stats"
+			spriteType = "GFX_close_window"
+		    position = { x= 5 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}	
+######### Flags
+		iconType ={
+			name ="USA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 150 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="ENG"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 175 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="FRA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 200 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="JAP"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 225 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="ITA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 250 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="SOV"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 275 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="GER"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 300 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="CHI"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 325 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="POL"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 350 }
+			Orientation = "UPPER_LEFT"
+		}
+######### Civilian
+		instantTextboxType = {
+			name = "USA-CIVILIAN"
+			position = { x =  160 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-CIVILIAN"
+			position = { x =  160 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-CIVILIAN"
+			position = { x =  160 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-CIVILIAN"
+			position = { x =  160 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-CIVILIAN"
+			position = { x =  160 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-CIVILIAN"
+			position = { x =  160 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-CIVILIAN"
+			position = { x =  160 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-CIVILIAN"
+			position = { x =  160 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-CIVILIAN"
+			position = { x =  160 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_of_civilian_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Military
+		instantTextboxType = {
+			name = "USA-MILITARY"
+			position = { x =  270 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-MILITARY"
+			position = { x =  270 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-MILITARY"
+			position = { x =  270 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-MILITARY"
+			position = { x =  270 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-MILITARY"
+			position = { x =  270 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-MILITARY"
+			position = { x =  270 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-MILITARY"
+			position = { x =  270 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-MILITARY"
+			position = { x =  270 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-MILITARY"
+			position = { x =  270 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_of_military_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+
+######### Dockyard
+		instantTextboxType = {
+			name = "USA-DOCKYARD"
+			position = { x =  390 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-DOCKYARD"
+			position = { x =  390 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-DOCKYARD"
+			position = { x =  390 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-DOCKYARD"
+			position = { x =  390 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-DOCKYARD"
+			position = { x =  390 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-DOCKYARD"
+			position = { x =  390 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-DOCKYARD"
+			position = { x =  390 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-DOCKYARD"
+			position = { x =  390 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-DOCKYARD"
+			position = { x =  390 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_of_naval_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Battlecruiser
+		instantTextboxType = {
+			name = "USA-TOTAL"
+			position = { x =  510 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG-TOTAL"
+			position = { x =  510 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA-TOTAL"
+			position = { x =  510 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP-TOTAL"
+			position = { x =  510 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA-TOTAL"
+			position = { x =  510 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV-TOTAL"
+			position = { x =  510 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER-TOTAL"
+			position = { x =  510 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI-TOTAL"
+			position = { x =  510 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL-TOTAL"
+			position = { x =  510 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+################# Headers
+		instantTextboxType = {
+			name = "OVERVIEW"
+			position = { x =  120 y = 105 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "YVanillia Industry Stats"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-CIVILIAN"
+			position = { x =  150 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GCivilian"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-MILITARY"
+			position = { x =  260 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GMilitary"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-DOCKYARD"
+			position = { x =  380 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GDockyard"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-TOTAL"
+			position = { x =  500 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GTotal"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+	}
+}

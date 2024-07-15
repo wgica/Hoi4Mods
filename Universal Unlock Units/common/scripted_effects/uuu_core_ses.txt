@@ -1,0 +1,3563 @@
+uuu_core_eff = {
+	country_lock_all_division_template = no
+	if = {
+		limit = { has_template = "Guards" }
+		set_division_template_lock = { division_template = "Guards" is_locked = no }
+		clear_division_template_cap = { division_template = "Guards" }
+	}
+  	if = {
+		limit = { has_template = "Panzergrenadier Division" }
+		set_division_template_lock = { division_template = "Panzergrenadier Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Panzergrenadier Division" }
+	}
+  	if = {
+		limit = { has_template = "Konoe Sensha Shidan" }
+		set_division_template_lock = { division_template = "Konoe Sensha Shidan" is_locked = no }
+		clear_division_template_cap = { division_template = "Konoe Sensha Shidan" }
+	}
+  	if = {
+		limit = { has_template = "Divisione Ascari Somala" }
+		set_division_template_lock = { division_template = "Divisione Ascari Somala" is_locked = no }
+		clear_division_template_cap = { division_template = "Divisione Ascari Somala" }
+	}
+  	if = {
+		limit = { has_template = "切特师" }
+		set_division_template_lock = { division_template = "切特师" is_locked = no }
+		clear_division_template_cap = { division_template = "切特师" }
+	}
+  	if = {
+		limit = { has_template = "殖民地驻军" }
+		set_division_template_lock = { division_template = "殖民地驻军" is_locked = no }
+		clear_division_template_cap = { division_template = "殖民地驻军" }
+	}
+  	if = {
+		limit = { has_template = "黑狮组织师" }
+		set_division_template_lock = { division_template = "黑狮组织师" is_locked = no }
+		clear_division_template_cap = { division_template = "黑狮组织师" }
+	}
+  	if = {
+		limit = { has_template = "印度支那干涉军" }
+		set_division_template_lock = { division_template = "印度支那干涉军" is_locked = no }
+		clear_division_template_cap = { division_template = "印度支那干涉军" }
+	}
+  	if = {
+		limit = { has_template = "Local Volunteers" }
+		set_division_template_lock = { division_template = "Local Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Local Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Trotskyist Revolutionary Militias" }
+		set_division_template_lock = { division_template = "Trotskyist Revolutionary Militias" is_locked = no }
+		clear_division_template_cap = { division_template = "Trotskyist Revolutionary Militias" }
+	}
+  	if = {
+		limit = { has_template = "Infantry Regiment" }
+		set_division_template_lock = { division_template = "Infantry Regiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Infantry Regiment" }
+	}
+  	if = {
+		limit = { has_template = "卡累利阿森林游击队" }
+		set_division_template_lock = { division_template = "卡累利阿森林游击队" is_locked = no }
+		clear_division_template_cap = { division_template = "卡累利阿森林游击队" }
+	}
+  	if = {
+		limit = { has_template = "Chitet Sefari" }
+		set_division_template_lock = { division_template = "Chitet Sefari" is_locked = no }
+		clear_division_template_cap = { division_template = "Chitet Sefari" }
+	}
+  	if = {
+		limit = { has_template = "索马里班队" }
+		set_division_template_lock = { division_template = "索马里班队" is_locked = no }
+		clear_division_template_cap = { division_template = "索马里班队" }
+	}
+  	if = {
+		limit = { has_template = "Solar Guard" }
+		set_division_template_lock = { division_template = "Solar Guard" is_locked = no }
+		clear_division_template_cap = { division_template = "Solar Guard" }
+	}
+  	if = {
+		limit = { has_template = "Experimental Rifle Division" }
+		set_division_template_lock = { division_template = "Experimental Rifle Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Experimental Rifle Division" }
+	}
+  	if = {
+		limit = { has_template = "契特守卫师" }
+		set_division_template_lock = { division_template = "契特守卫师" is_locked = no }
+		clear_division_template_cap = { division_template = "契特守卫师" }
+	}
+  	if = {
+		limit = { has_template = "流亡者" }
+		set_division_template_lock = { division_template = "流亡者" is_locked = no }
+		clear_division_template_cap = { division_template = "流亡者" }
+	}
+  	if = {
+		limit = { has_template = "格鲁吉亚志愿军" }
+		set_division_template_lock = { division_template = "格鲁吉亚志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "格鲁吉亚志愿军" }
+	}
+  	if = {
+		limit = { has_template = "苏丹雇佣兵" }
+		set_division_template_lock = { division_template = "苏丹雇佣兵" is_locked = no }
+		clear_division_template_cap = { division_template = "苏丹雇佣兵" }
+	}
+  	if = {
+		limit = { has_template = "Guomin Jiefang Jun" }
+		set_division_template_lock = { division_template = "Guomin Jiefang Jun" is_locked = no }
+		clear_division_template_cap = { division_template = "Guomin Jiefang Jun" }
+	}
+  	if = {
+		limit = { has_template = "智利祖国警卫队" }
+		set_division_template_lock = { division_template = "智利祖国警卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "智利祖国警卫队" }
+	}
+  	if = {
+		limit = { has_template = "Iron Guard Brigade" }
+		set_division_template_lock = { division_template = "Iron Guard Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Iron Guard Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Tribal Levy" }
+		set_division_template_lock = { division_template = "Tribal Levy" is_locked = no }
+		clear_division_template_cap = { division_template = "Tribal Levy" }
+	}
+  	if = {
+		limit = { has_template = "保加利亚祖国阵线游击队" }
+		set_division_template_lock = { division_template = "保加利亚祖国阵线游击队" is_locked = no }
+		clear_division_template_cap = { division_template = "保加利亚祖国阵线游击队" }
+	}
+  	if = {
+		limit = { has_template = "索马里民兵师" }
+		set_division_template_lock = { division_template = "索马里民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "索马里民兵师" }
+	}
+  	if = {
+		limit = { has_template = "祖国阵线民兵师" }
+		set_division_template_lock = { division_template = "祖国阵线民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "祖国阵线民兵师" }
+	}
+  	if = {
+		limit = { has_template = "铁卫团" }
+		set_division_template_lock = { division_template = "铁卫团" is_locked = no }
+		clear_division_template_cap = { division_template = "铁卫团" }
+	}
+  	if = {
+		limit = { has_template = "Kongens Menn" }
+		set_division_template_lock = { division_template = "Kongens Menn" is_locked = no }
+		clear_division_template_cap = { division_template = "Kongens Menn" }
+	}
+  	if = {
+		limit = { has_template = "Banner Veterans" }
+		set_division_template_lock = { division_template = "Banner Veterans" is_locked = no }
+		clear_division_template_cap = { division_template = "Banner Veterans" }
+	}
+  	if = {
+		limit = { has_template = "山地旅" }
+		set_division_template_lock = { division_template = "山地旅" is_locked = no }
+		clear_division_template_cap = { division_template = "山地旅" }
+	}
+  	if = {
+		limit = { has_template = "Airborne Brigade" }
+		set_division_template_lock = { division_template = "Airborne Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Airborne Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Våpenfolket" }
+		set_division_template_lock = { division_template = "Våpenfolket" is_locked = no }
+		clear_division_template_cap = { division_template = "Våpenfolket" }
+	}
+  	if = {
+		limit = { has_template = "Kasan Volunteer Division" }
+		set_division_template_lock = { division_template = "Kasan Volunteer Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Kasan Volunteer Division" }
+	}
+  	if = {
+		limit = { has_template = "Brigada de Legionarios" }
+		set_division_template_lock = { division_template = "Brigada de Legionarios" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada de Legionarios" }
+	}
+  	if = {
+		limit = { has_template = "黑山祖国军" }
+		set_division_template_lock = { division_template = "黑山祖国军" is_locked = no }
+		clear_division_template_cap = { division_template = "黑山祖国军" }
+	}
+  	if = {
+		limit = { has_template = "American Volunteer Marine Division" }
+		set_division_template_lock = { division_template = "American Volunteer Marine Division" is_locked = no }
+		clear_division_template_cap = { division_template = "American Volunteer Marine Division" }
+	}
+  	if = {
+		limit = { has_template = "Manticores" }
+		set_division_template_lock = { division_template = "Manticores" is_locked = no }
+		clear_division_template_cap = { division_template = "Manticores" }
+	}
+  	if = {
+		limit = { has_template = "Frivilligregiment" }
+		set_division_template_lock = { division_template = "Frivilligregiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Frivilligregiment" }
+	}
+  	if = {
+		limit = { has_template = "公民自卫军" }
+		set_division_template_lock = { division_template = "公民自卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "公民自卫军" }
+	}
+  	if = {
+		limit = { has_template = "Experimental Helicopter Division" }
+		set_division_template_lock = { division_template = "Experimental Helicopter Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Experimental Helicopter Division" }
+	}
+  	if = {
+		limit = { has_template = "西非国防军" }
+		set_division_template_lock = { division_template = "西非国防军" is_locked = no }
+		clear_division_template_cap = { division_template = "西非国防军" }
+	}
+  	if = {
+		limit = { has_template = "East African Irregulars" }
+		set_division_template_lock = { division_template = "East African Irregulars" is_locked = no }
+		clear_division_template_cap = { division_template = "East African Irregulars" }
+	}
+  	if = {
+		limit = { has_template = "Guarnición Republicana" }
+		set_division_template_lock = { division_template = "Guarnición Republicana" is_locked = no }
+		clear_division_template_cap = { division_template = "Guarnición Republicana" }
+	}
+  	if = {
+		limit = { has_template = "Cultist Brigade" }
+		set_division_template_lock = { division_template = "Cultist Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Cultist Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Gardia Nacional" }
+		set_division_template_lock = { division_template = "Gardia Nacional" is_locked = no }
+		clear_division_template_cap = { division_template = "Gardia Nacional" }
+	}
+  	if = {
+		limit = { has_template = "Hetmanate Loyalists" }
+		set_division_template_lock = { division_template = "Hetmanate Loyalists" is_locked = no }
+		clear_division_template_cap = { division_template = "Hetmanate Loyalists" }
+	}
+  	if = {
+		limit = { has_template = "抵抗军" }
+		set_division_template_lock = { division_template = "抵抗军" is_locked = no }
+		clear_division_template_cap = { division_template = "抵抗军" }
+	}
+  	if = {
+		limit = { has_template = "挪威人民军" }
+		set_division_template_lock = { division_template = "挪威人民军" is_locked = no }
+		clear_division_template_cap = { division_template = "挪威人民军" }
+	}
+  	if = {
+		limit = { has_template = "东非民兵师" }
+		set_division_template_lock = { division_template = "东非民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "东非民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Bukharinist Workers' Militia" }
+		set_division_template_lock = { division_template = "Bukharinist Workers' Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Bukharinist Workers' Militia" }
+	}
+  	if = {
+		limit = { has_template = "步兵师" }
+		set_division_template_lock = { division_template = "步兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "步兵师" }
+	}
+  	if = {
+		limit = { has_template = "Folkets Hær" }
+		set_division_template_lock = { division_template = "Folkets Hær" is_locked = no }
+		clear_division_template_cap = { division_template = "Folkets Hær" }
+	}
+  	if = {
+		limit = { has_template = "托米斯拉夫近卫军" }
+		set_division_template_lock = { division_template = "托米斯拉夫近卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "托米斯拉夫近卫军" }
+	}
+  	if = {
+		limit = { has_template = "受训边境旅" }
+		set_division_template_lock = { division_template = "受训边境旅" is_locked = no }
+		clear_division_template_cap = { division_template = "受训边境旅" }
+	}
+  	if = {
+		limit = { has_template = "Banda Irregolare Eritrea" }
+		set_division_template_lock = { division_template = "Banda Irregolare Eritrea" is_locked = no }
+		clear_division_template_cap = { division_template = "Banda Irregolare Eritrea" }
+	}
+  	if = {
+		limit = { has_template = "Guardia Presidencial" }
+		set_division_template_lock = { division_template = "Guardia Presidencial" is_locked = no }
+		clear_division_template_cap = { division_template = "Guardia Presidencial" }
+	}
+  	if = {
+		limit = { has_template = "Zwarte Brigade" }
+		set_division_template_lock = { division_template = "Zwarte Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Zwarte Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Saudi Korps" }
+		set_division_template_lock = { division_template = "Saudi Korps" is_locked = no }
+		clear_division_template_cap = { division_template = "Saudi Korps" }
+	}
+  	if = {
+		limit = { has_template = "外籍兵团" }
+		set_division_template_lock = { division_template = "外籍兵团" is_locked = no }
+		clear_division_template_cap = { division_template = "外籍兵团" }
+	}
+  	if = {
+		limit = { has_template = "Crumbling Zombies" }
+		set_division_template_lock = { division_template = "Crumbling Zombies" is_locked = no }
+		clear_division_template_cap = { division_template = "Crumbling Zombies" }
+	}
+  	if = {
+		limit = { has_template = "Hydras" }
+		set_division_template_lock = { division_template = "Hydras" is_locked = no }
+		clear_division_template_cap = { division_template = "Hydras" }
+	}
+  	if = {
+		limit = { has_template = "Milícia de Reserva Nacional" }
+		set_division_template_lock = { division_template = "Milícia de Reserva Nacional" is_locked = no }
+		clear_division_template_cap = { division_template = "Milícia de Reserva Nacional" }
+	}
+  	if = {
+		limit = { has_template = "Sicherungsdivision" }
+		set_division_template_lock = { division_template = "Sicherungsdivision" is_locked = no }
+		clear_division_template_cap = { division_template = "Sicherungsdivision" }
+	}
+  	if = {
+		limit = { has_template = "Trained Leichte Brigade" }
+		set_division_template_lock = { division_template = "Trained Leichte Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Trained Leichte Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Knightly Order" }
+		set_division_template_lock = { division_template = "Knightly Order" is_locked = no }
+		clear_division_template_cap = { division_template = "Knightly Order" }
+	}
+  	if = {
+		limit = { has_template = "救赎军" }
+		set_division_template_lock = { division_template = "救赎军" is_locked = no }
+		clear_division_template_cap = { division_template = "救赎军" }
+	}
+  	if = {
+		limit = { has_template = "本土志愿军" }
+		set_division_template_lock = { division_template = "本土志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "本土志愿军" }
+	}
+  	if = {
+		limit = { has_template = "Honourable Artillery Company" }
+		set_division_template_lock = { division_template = "Honourable Artillery Company" is_locked = no }
+		clear_division_template_cap = { division_template = "Honourable Artillery Company" }
+	}
+  	if = {
+		limit = { has_template = "Saint-Soldier Recruits" }
+		set_division_template_lock = { division_template = "Saint-Soldier Recruits" is_locked = no }
+		clear_division_template_cap = { division_template = "Saint-Soldier Recruits" }
+	}
+  	if = {
+		limit = { has_template = "División Voluntaria" }
+		set_division_template_lock = { division_template = "División Voluntaria" is_locked = no }
+		clear_division_template_cap = { division_template = "División Voluntaria" }
+	}
+  	if = {
+		limit = { has_template = "本地志愿军" }
+		set_division_template_lock = { division_template = "本地志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "本地志愿军" }
+	}
+  	if = {
+		limit = { has_template = "National Guard Infantry Division" }
+		set_division_template_lock = { division_template = "National Guard Infantry Division" is_locked = no }
+		clear_division_template_cap = { division_template = "National Guard Infantry Division" }
+	}
+  	if = {
+		limit = { has_template = "Makedonska Revolyutsionna Militsiya" }
+		set_division_template_lock = { division_template = "Makedonska Revolyutsionna Militsiya" is_locked = no }
+		clear_division_template_cap = { division_template = "Makedonska Revolyutsionna Militsiya" }
+	}
+  	if = {
+		limit = { has_template = "Hemvärn" }
+		set_division_template_lock = { division_template = "Hemvärn" is_locked = no }
+		clear_division_template_cap = { division_template = "Hemvärn" }
+	}
+  	if = {
+		limit = { has_template = "土著民兵师" }
+		set_division_template_lock = { division_template = "土著民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "土著民兵师" }
+	}
+  	if = {
+		limit = { has_template = "志愿民兵团" }
+		set_division_template_lock = { division_template = "志愿民兵团" is_locked = no }
+		clear_division_template_cap = { division_template = "志愿民兵团" }
+	}
+  	if = {
+		limit = { has_template = "Brodfeld's Unemployed" }
+		set_division_template_lock = { division_template = "Brodfeld's Unemployed" is_locked = no }
+		clear_division_template_cap = { division_template = "Brodfeld's Unemployed" }
+	}
+  	if = {
+		limit = { has_template = "Corporate Para-Mechanized Unit" }
+		set_division_template_lock = { division_template = "Corporate Para-Mechanized Unit" is_locked = no }
+		clear_division_template_cap = { division_template = "Corporate Para-Mechanized Unit" }
+	}
+  	if = {
+		limit = { has_template = "Legión Dominicana" }
+		set_division_template_lock = { division_template = "Legión Dominicana" is_locked = no }
+		clear_division_template_cap = { division_template = "Legión Dominicana" }
+	}
+  	if = {
+		limit = { has_template = "印度民兵" }
+		set_division_template_lock = { division_template = "印度民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "印度民兵" }
+	}
+  	if = {
+		limit = { has_template = "Infanterie-Abteilung" }
+		set_division_template_lock = { division_template = "Infanterie-Abteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "Infanterie-Abteilung" }
+	}
+  	if = {
+		limit = { has_template = "Irgenii Tsereg" }
+		set_division_template_lock = { division_template = "Irgenii Tsereg" is_locked = no }
+		clear_division_template_cap = { division_template = "Irgenii Tsereg" }
+	}
+  	if = {
+		limit = { has_template = "Eritrean Askari" }
+		set_division_template_lock = { division_template = "Eritrean Askari" is_locked = no }
+		clear_division_template_cap = { division_template = "Eritrean Askari" }
+	}
+  	if = {
+		limit = { has_template = "Slingtails" }
+		set_division_template_lock = { division_template = "Slingtails" is_locked = no }
+		clear_division_template_cap = { division_template = "Slingtails" }
+	}
+  	if = {
+		limit = { has_template = "烈焰十字军" }
+		set_division_template_lock = { division_template = "烈焰十字军" is_locked = no }
+		clear_division_template_cap = { division_template = "烈焰十字军" }
+	}
+  	if = {
+		limit = { has_template = "Ad-Hoc Milita" }
+		set_division_template_lock = { division_template = "Ad-Hoc Milita" is_locked = no }
+		clear_division_template_cap = { division_template = "Ad-Hoc Milita" }
+	}
+  	if = {
+		limit = { has_template = "The Riesigerkatzenpanzer" }
+		set_division_template_lock = { division_template = "The Riesigerkatzenpanzer" is_locked = no }
+		clear_division_template_cap = { division_template = "The Riesigerkatzenpanzer" }
+	}
+  	if = {
+		limit = { has_template = "Reziman'ny an-Tendrombohitra" }
+		set_division_template_lock = { division_template = "Reziman'ny an-Tendrombohitra" is_locked = no }
+		clear_division_template_cap = { division_template = "Reziman'ny an-Tendrombohitra" }
+	}
+  	if = {
+		limit = { has_template = "Rural Mob" }
+		set_division_template_lock = { division_template = "Rural Mob" is_locked = no }
+		clear_division_template_cap = { division_template = "Rural Mob" }
+	}
+  	if = {
+		limit = { has_template = "警卫团" }
+		set_division_template_lock = { division_template = "警卫团" is_locked = no }
+		clear_division_template_cap = { division_template = "警卫团" }
+	}
+  	if = {
+		limit = { has_template = "National Defense Guard" }
+		set_division_template_lock = { division_template = "National Defense Guard" is_locked = no }
+		clear_division_template_cap = { division_template = "National Defense Guard" }
+	}
+  	if = {
+		limit = { has_template = "Loyalist Milita" }
+		set_division_template_lock = { division_template = "Loyalist Milita" is_locked = no }
+		clear_division_template_cap = { division_template = "Loyalist Milita" }
+	}
+  	if = {
+		limit = { has_template = "Manchu Banner" }
+		set_division_template_lock = { division_template = "Manchu Banner" is_locked = no }
+		clear_division_template_cap = { division_template = "Manchu Banner" }
+	}
+  	if = {
+		limit = { has_template = "国民卫队旅" }
+		set_division_template_lock = { division_template = "国民卫队旅" is_locked = no }
+		clear_division_template_cap = { division_template = "国民卫队旅" }
+	}
+  	if = {
+		limit = { has_template = "Infanterie-Division" }
+		set_division_template_lock = { division_template = "Infanterie-Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Infanterie-Division" }
+	}
+  	if = {
+		limit = { has_template = "地下军" }
+		set_division_template_lock = { division_template = "地下军" is_locked = no }
+		clear_division_template_cap = { division_template = "地下军" }
+	}
+  	if = {
+		limit = { has_template = "Elite Bergsteiger Brigade" }
+		set_division_template_lock = { division_template = "Elite Bergsteiger Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Elite Bergsteiger Brigade" }
+	}
+  	if = {
+		limit = { has_template = "帝国总督府卫戍师" }
+		set_division_template_lock = { division_template = "帝国总督府卫戍师" is_locked = no }
+		clear_division_template_cap = { division_template = "帝国总督府卫戍师" }
+	}
+  	if = {
+		limit = { has_template = "莫尔日师" }
+		set_division_template_lock = { division_template = "莫尔日师" is_locked = no }
+		clear_division_template_cap = { division_template = "莫尔日师" }
+	}
+  	if = {
+		limit = { has_template = "Riechskommissariat Garrison" }
+		set_division_template_lock = { division_template = "Riechskommissariat Garrison" is_locked = no }
+		clear_division_template_cap = { division_template = "Riechskommissariat Garrison" }
+	}
+  	if = {
+		limit = { has_template = "Adelart Forest Brothers" }
+		set_division_template_lock = { division_template = "Adelart Forest Brothers" is_locked = no }
+		clear_division_template_cap = { division_template = "Adelart Forest Brothers" }
+	}
+  	if = {
+		limit = { has_template = "纳粹党" }
+		set_division_template_lock = { division_template = "纳粹党" is_locked = no }
+		clear_division_template_cap = { division_template = "纳粹党" }
+	}
+  	if = {
+		limit = { has_template = "阿塞拜疆志愿军" }
+		set_division_template_lock = { division_template = "阿塞拜疆志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "阿塞拜疆志愿军" }
+	}
+  	if = {
+		limit = { has_template = "Milis Revolisyonè" }
+		set_division_template_lock = { division_template = "Milis Revolisyonè" is_locked = no }
+		clear_division_template_cap = { division_template = "Milis Revolisyonè" }
+	}
+  	if = {
+		limit = { has_template = "Ersatzheer" }
+		set_division_template_lock = { division_template = "Ersatzheer" is_locked = no }
+		clear_division_template_cap = { division_template = "Ersatzheer" }
+	}
+  	if = {
+		limit = { has_template = "风暴民兵师" }
+		set_division_template_lock = { division_template = "风暴民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "风暴民兵师" }
+	}
+  	if = {
+		limit = { has_template = "受训山地师" }
+		set_division_template_lock = { division_template = "受训山地师" is_locked = no }
+		clear_division_template_cap = { division_template = "受训山地师" }
+	}
+  	if = {
+		limit = { has_template = "党卫军突击旅" }
+		set_division_template_lock = { division_template = "党卫军突击旅" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军突击旅" }
+	}
+  	if = {
+		limit = { has_template = "厄立特里亚民兵师" }
+		set_division_template_lock = { division_template = "厄立特里亚民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "厄立特里亚民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Trained Stadtkommando" }
+		set_division_template_lock = { division_template = "Trained Stadtkommando" is_locked = no }
+		clear_division_template_cap = { division_template = "Trained Stadtkommando" }
+	}
+  	if = {
+		limit = { has_template = "POUM Special Brigades" }
+		set_division_template_lock = { division_template = "POUM Special Brigades" is_locked = no }
+		clear_division_template_cap = { division_template = "POUM Special Brigades" }
+	}
+  	if = {
+		limit = { has_template = "Lan Kir War-Banner" }
+		set_division_template_lock = { division_template = "Lan Kir War-Banner" is_locked = no }
+		clear_division_template_cap = { division_template = "Lan Kir War-Banner" }
+	}
+  	if = {
+		limit = { has_template = "非正规骆驼骑兵队" }
+		set_division_template_lock = { division_template = "非正规骆驼骑兵队" is_locked = no }
+		clear_division_template_cap = { division_template = "非正规骆驼骑兵队" }
+	}
+  	if = {
+		limit = { has_template = "刚果雇佣军" }
+		set_division_template_lock = { division_template = "刚果雇佣军" is_locked = no }
+		clear_division_template_cap = { division_template = "刚果雇佣军" }
+	}
+  	if = {
+		limit = { has_template = "Jingwei Shi" }
+		set_division_template_lock = { division_template = "Jingwei Shi" is_locked = no }
+		clear_division_template_cap = { division_template = "Jingwei Shi" }
+	}
+  	if = {
+		limit = { has_template = "突击近卫师" }
+		set_division_template_lock = { division_template = "突击近卫师" is_locked = no }
+		clear_division_template_cap = { division_template = "突击近卫师" }
+	}
+  	if = {
+		limit = { has_template = "Brigada de la Reserva Federal de Emergencia" }
+		set_division_template_lock = { division_template = "Brigada de la Reserva Federal de Emergencia" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada de la Reserva Federal de Emergencia" }
+	}
+  	if = {
+		limit = { has_template = "Camicie Rosse" }
+		set_division_template_lock = { division_template = "Camicie Rosse" is_locked = no }
+		clear_division_template_cap = { division_template = "Camicie Rosse" }
+	}
+  	if = {
+		limit = { has_template = "Kōdō Tai" }
+		set_division_template_lock = { division_template = "Kōdō Tai" is_locked = no }
+		clear_division_template_cap = { division_template = "Kōdō Tai" }
+	}
+  	if = {
+		limit = { has_template = "Brigadang Pamayapa" }
+		set_division_template_lock = { division_template = "Brigadang Pamayapa" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigadang Pamayapa" }
+	}
+  	if = {
+		limit = { has_template = "Tercio de Extranjeros" }
+		set_division_template_lock = { division_template = "Tercio de Extranjeros" is_locked = no }
+		clear_division_template_cap = { division_template = "Tercio de Extranjeros" }
+	}
+  	if = {
+		limit = { has_template = "Tatzlwurms" }
+		set_division_template_lock = { division_template = "Tatzlwurms" is_locked = no }
+		clear_division_template_cap = { division_template = "Tatzlwurms" }
+	}
+  	if = {
+		limit = { has_template = "Trained Bergsteiger Brigade" }
+		set_division_template_lock = { division_template = "Trained Bergsteiger Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Trained Bergsteiger Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Fascist Militia" }
+		set_division_template_lock = { division_template = "Fascist Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Fascist Militia" }
+	}
+  	if = {
+		limit = { has_template = "保皇党师团" }
+		set_division_template_lock = { division_template = "保皇党师团" is_locked = no }
+		clear_division_template_cap = { division_template = "保皇党师团" }
+	}
+  	if = {
+		limit = { has_template = "丹麦旅" }
+		set_division_template_lock = { division_template = "丹麦旅" is_locked = no }
+		clear_division_template_cap = { division_template = "丹麦旅" }
+	}
+  	if = {
+		limit = { has_template = "Stalwarts" }
+		set_division_template_lock = { division_template = "Stalwarts" is_locked = no }
+		clear_division_template_cap = { division_template = "Stalwarts" }
+	}
+  	if = {
+		limit = { has_template = "国际志愿旅" }
+		set_division_template_lock = { division_template = "国际志愿旅" is_locked = no }
+		clear_division_template_cap = { division_template = "国际志愿旅" }
+	}
+  	if = {
+		limit = { has_template = "Liwa' Almsha" }
+		set_division_template_lock = { division_template = "Liwa' Almsha" is_locked = no }
+		clear_division_template_cap = { division_template = "Liwa' Almsha" }
+	}
+  	if = {
+		limit = { has_template = "Shturmoviki Otrjad" }
+		set_division_template_lock = { division_template = "Shturmoviki Otrjad" is_locked = no }
+		clear_division_template_cap = { division_template = "Shturmoviki Otrjad" }
+	}
+  	if = {
+		limit = { has_template = "殖民地骑警师" }
+		set_division_template_lock = { division_template = "殖民地骑警师" is_locked = no }
+		clear_division_template_cap = { division_template = "殖民地骑警师" }
+	}
+  	if = {
+		limit = { has_template = "非正规骆驼骑兵师" }
+		set_division_template_lock = { division_template = "非正规骆驼骑兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "非正规骆驼骑兵师" }
+	}
+  	if = {
+		limit = { has_template = "工人赤卫队" }
+		set_division_template_lock = { division_template = "工人赤卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "工人赤卫队" }
+	}
+  	if = {
+		limit = { has_template = "统工党特战旅" }
+		set_division_template_lock = { division_template = "统工党特战旅" is_locked = no }
+		clear_division_template_cap = { division_template = "统工党特战旅" }
+	}
+  	if = {
+		limit = { has_template = "利比亚殖民地师" }
+		set_division_template_lock = { division_template = "利比亚殖民地师" is_locked = no }
+		clear_division_template_cap = { division_template = "利比亚殖民地师" }
+	}
+  	if = {
+		limit = { has_template = "Shuzui Jun" }
+		set_division_template_lock = { division_template = "Shuzui Jun" is_locked = no }
+		clear_division_template_cap = { division_template = "Shuzui Jun" }
+	}
+  	if = {
+		limit = { has_template = "Tribal Warband" }
+		set_division_template_lock = { division_template = "Tribal Warband" is_locked = no }
+		clear_division_template_cap = { division_template = "Tribal Warband" }
+	}
+  	if = {
+		limit = { has_template = "四单位制师团" }
+		set_division_template_lock = { division_template = "四单位制师团" is_locked = no }
+		clear_division_template_cap = { division_template = "四单位制师团" }
+	}
+  	if = {
+		limit = { has_template = "våpenfolket" }
+		set_division_template_lock = { division_template = "våpenfolket" is_locked = no }
+		clear_division_template_cap = { division_template = "våpenfolket" }
+	}
+  	if = {
+		limit = { has_template = "Hare Majesteits Duitse Legioen" }
+		set_division_template_lock = { division_template = "Hare Majesteits Duitse Legioen" is_locked = no }
+		clear_division_template_cap = { division_template = "Hare Majesteits Duitse Legioen" }
+	}
+  	if = {
+		limit = { has_template = "Tomislav's Royal Guards" }
+		set_division_template_lock = { division_template = "Tomislav's Royal Guards" is_locked = no }
+		clear_division_template_cap = { division_template = "Tomislav's Royal Guards" }
+	}
+  	if = {
+		limit = { has_template = "Panzer-Division" }
+		set_division_template_lock = { division_template = "Panzer-Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Panzer-Division" }
+	}
+  	if = {
+		limit = { has_template = "Montenegrin Chetniks" }
+		set_division_template_lock = { division_template = "Montenegrin Chetniks" is_locked = no }
+		clear_division_template_cap = { division_template = "Montenegrin Chetniks" }
+	}
+  	if = {
+		limit = { has_template = "第五纵队" }
+		set_division_template_lock = { division_template = "第五纵队" is_locked = no }
+		clear_division_template_cap = { division_template = "第五纵队" }
+	}
+  	if = {
+		limit = { has_template = "Lunar Imperial Guard" }
+		set_division_template_lock = { division_template = "Lunar Imperial Guard" is_locked = no }
+		clear_division_template_cap = { division_template = "Lunar Imperial Guard" }
+	}
+  	if = {
+		limit = { has_template = "Jade Company Division" }
+		set_division_template_lock = { division_template = "Jade Company Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Jade Company Division" }
+	}
+  	if = {
+		limit = { has_template = "保加利亚祖国阵线军" }
+		set_division_template_lock = { division_template = "保加利亚祖国阵线军" is_locked = no }
+		clear_division_template_cap = { division_template = "保加利亚祖国阵线军" }
+	}
+  	if = {
+		limit = { has_template = "抵抗军民兵" }
+		set_division_template_lock = { division_template = "抵抗军民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "抵抗军民兵" }
+	}
+  	if = {
+		limit = { has_template = "祖国哨兵" }
+		set_division_template_lock = { division_template = "祖国哨兵" is_locked = no }
+		clear_division_template_cap = { division_template = "祖国哨兵" }
+	}
+  	if = {
+		limit = { has_template = "Elite Security Squadron" }
+		set_division_template_lock = { division_template = "Elite Security Squadron" is_locked = no }
+		clear_division_template_cap = { division_template = "Elite Security Squadron" }
+	}
+  	if = {
+		limit = { has_template = "印度支那干涉部队" }
+		set_division_template_lock = { division_template = "印度支那干涉部队" is_locked = no }
+		clear_division_template_cap = { division_template = "印度支那干涉部队" }
+	}
+  	if = {
+		limit = { has_template = "Wittenlandic Fyrd" }
+		set_division_template_lock = { division_template = "Wittenlandic Fyrd" is_locked = no }
+		clear_division_template_cap = { division_template = "Wittenlandic Fyrd" }
+	}
+  	if = {
+		limit = { has_template = "Hindu Militia" }
+		set_division_template_lock = { division_template = "Hindu Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Hindu Militia" }
+	}
+  	if = {
+		limit = { has_template = "Lockstep Legion" }
+		set_division_template_lock = { division_template = "Lockstep Legion" is_locked = no }
+		clear_division_template_cap = { division_template = "Lockstep Legion" }
+	}
+  	if = {
+		limit = { has_template = "Arab Mercenaries" }
+		set_division_template_lock = { division_template = "Arab Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Arab Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "瑞士公民师" }
+		set_division_template_lock = { division_template = "瑞士公民师" is_locked = no }
+		clear_division_template_cap = { division_template = "瑞士公民师" }
+	}
+  	if = {
+		limit = { has_template = "Sandatahang Pangkat" }
+		set_division_template_lock = { division_template = "Sandatahang Pangkat" is_locked = no }
+		clear_division_template_cap = { division_template = "Sandatahang Pangkat" }
+	}
+  	if = {
+		limit = { has_template = "Elite Bergsteiger-Abteilung" }
+		set_division_template_lock = { division_template = "Elite Bergsteiger-Abteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "Elite Bergsteiger-Abteilung" }
+	}
+  	if = {
+		limit = { has_template = "Motorized Security Squadron" }
+		set_division_template_lock = { division_template = "Motorized Security Squadron" is_locked = no }
+		clear_division_template_cap = { division_template = "Motorized Security Squadron" }
+	}
+  	if = {
+		limit = { has_template = "咒缚军团" }
+		set_division_template_lock = { division_template = "咒缚军团" is_locked = no }
+		clear_division_template_cap = { division_template = "咒缚军团" }
+	}
+  	if = {
+		limit = { has_template = "国际马克思主义旅" }
+		set_division_template_lock = { division_template = "国际马克思主义旅" is_locked = no }
+		clear_division_template_cap = { division_template = "国际马克思主义旅" }
+	}
+  	if = {
+		limit = { has_template = "Fatherland Front Partisans" }
+		set_division_template_lock = { division_template = "Fatherland Front Partisans" is_locked = no }
+		clear_division_template_cap = { division_template = "Fatherland Front Partisans" }
+	}
+  	if = {
+		limit = { has_template = "向部落征兵" }
+		set_division_template_lock = { division_template = "向部落征兵" is_locked = no }
+		clear_division_template_cap = { division_template = "向部落征兵" }
+	}
+  	if = {
+		limit = { has_template = "International brigade" }
+		set_division_template_lock = { division_template = "International brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "International brigade" }
+	}
+  	if = {
+		limit = { has_template = "厄立特里亚班队" }
+		set_division_template_lock = { division_template = "厄立特里亚班队" is_locked = no }
+		clear_division_template_cap = { division_template = "厄立特里亚班队" }
+	}
+  	if = {
+		limit = { has_template = "Sicameon Privateers" }
+		set_division_template_lock = { division_template = "Sicameon Privateers" is_locked = no }
+		clear_division_template_cap = { division_template = "Sicameon Privateers" }
+	}
+  	if = {
+		limit = { has_template = "冲锋队" }
+		set_division_template_lock = { division_template = "冲锋队" is_locked = no }
+		clear_division_template_cap = { division_template = "冲锋队" }
+	}
+  	if = {
+		limit = { has_template = "Fedrelandsregiment" }
+		set_division_template_lock = { division_template = "Fedrelandsregiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Fedrelandsregiment" }
+	}
+  	if = {
+		limit = { has_template = "Dokuritsu Konsei Ryodan" }
+		set_division_template_lock = { division_template = "Dokuritsu Konsei Ryodan" is_locked = no }
+		clear_division_template_cap = { division_template = "Dokuritsu Konsei Ryodan" }
+	}
+  	if = {
+		limit = { has_template = "Brigada de las Juventudes del POUM" }
+		set_division_template_lock = { division_template = "Brigada de las Juventudes del POUM" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada de las Juventudes del POUM" }
+	}
+  	if = {
+		limit = { has_template = "Trotskyist Peasant Militia" }
+		set_division_template_lock = { division_template = "Trotskyist Peasant Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Trotskyist Peasant Militia" }
+	}
+  	if = {
+		limit = { has_template = "Black Shirts" }
+		set_division_template_lock = { division_template = "Black Shirts" is_locked = no }
+		clear_division_template_cap = { division_template = "Black Shirts" }
+	}
+  	if = {
+		limit = { has_template = "Chimeras" }
+		set_division_template_lock = { division_template = "Chimeras" is_locked = no }
+		clear_division_template_cap = { division_template = "Chimeras" }
+	}
+  	if = {
+		limit = { has_template = "Blackshirt Brigade" }
+		set_division_template_lock = { division_template = "Blackshirt Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Blackshirt Brigade" }
+	}
+  	if = {
+		limit = { has_template = "托派农民自卫军" }
+		set_division_template_lock = { division_template = "托派农民自卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "托派农民自卫军" }
+	}
+  	if = {
+		limit = { has_template = "Jagdkommando Einsatzgruppe" }
+		set_division_template_lock = { division_template = "Jagdkommando Einsatzgruppe" is_locked = no }
+		clear_division_template_cap = { division_template = "Jagdkommando Einsatzgruppe" }
+	}
+  	if = {
+		limit = { has_template = "FFI半旅团" }
+		set_division_template_lock = { division_template = "FFI半旅团" is_locked = no }
+		clear_division_template_cap = { division_template = "FFI半旅团" }
+	}
+  	if = {
+		limit = { has_template = "美洲驻军" }
+		set_division_template_lock = { division_template = "美洲驻军" is_locked = no }
+		clear_division_template_cap = { division_template = "美洲驻军" }
+	}
+  	if = {
+		limit = { has_template = "Mercenary Knights" }
+		set_division_template_lock = { division_template = "Mercenary Knights" is_locked = no }
+		clear_division_template_cap = { division_template = "Mercenary Knights" }
+	}
+  	if = {
+		limit = { has_template = "NKVD Pogranichnaya Diviziya" }
+		set_division_template_lock = { division_template = "NKVD Pogranichnaya Diviziya" is_locked = no }
+		clear_division_template_cap = { division_template = "NKVD Pogranichnaya Diviziya" }
+	}
+  	if = {
+		limit = { has_template = "Izvidničke Snage" }
+		set_division_template_lock = { division_template = "Izvidničke Snage" is_locked = no }
+		clear_division_template_cap = { division_template = "Izvidničke Snage" }
+	}
+  	if = {
+		limit = { has_template = "Sombra's Royal Guards" }
+		set_division_template_lock = { division_template = "Sombra's Royal Guards" is_locked = no }
+		clear_division_template_cap = { division_template = "Sombra's Royal Guards" }
+	}
+  	if = {
+		limit = { has_template = "Z Special Unit" }
+		set_division_template_lock = { division_template = "Z Special Unit" is_locked = no }
+		clear_division_template_cap = { division_template = "Z Special Unit" }
+	}
+  	if = {
+		limit = { has_template = "Helot Rebels" }
+		set_division_template_lock = { division_template = "Helot Rebels" is_locked = no }
+		clear_division_template_cap = { division_template = "Helot Rebels" }
+	}
+  	if = {
+		limit = { has_template = "Milizia Brigada" }
+		set_division_template_lock = { division_template = "Milizia Brigada" is_locked = no }
+		clear_division_template_cap = { division_template = "Milizia Brigada" }
+	}
+  	if = {
+		limit = { has_template = "Blackhollow Highwaygriffs" }
+		set_division_template_lock = { division_template = "Blackhollow Highwaygriffs" is_locked = no }
+		clear_division_template_cap = { division_template = "Blackhollow Highwaygriffs" }
+	}
+  	if = {
+		limit = { has_template = "Elite Bergsteiger Grenzbrigade" }
+		set_division_template_lock = { division_template = "Elite Bergsteiger Grenzbrigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Elite Bergsteiger Grenzbrigade" }
+	}
+  	if = {
+		limit = { has_template = "West Africa Defense Force" }
+		set_division_template_lock = { division_template = "West Africa Defense Force" is_locked = no }
+		clear_division_template_cap = { division_template = "West Africa Defense Force" }
+	}
+  	if = {
+		limit = { has_template = "Territorial Volunteers" }
+		set_division_template_lock = { division_template = "Territorial Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Territorial Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Elite Infanterie-Abteilung" }
+		set_division_template_lock = { division_template = "Elite Infanterie-Abteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "Elite Infanterie-Abteilung" }
+	}
+  	if = {
+		limit = { has_template = "Wordbearers" }
+		set_division_template_lock = { division_template = "Wordbearers" is_locked = no }
+		clear_division_template_cap = { division_template = "Wordbearers" }
+	}
+  	if = {
+		limit = { has_template = "Panzergrenadier-Division" }
+		set_division_template_lock = { division_template = "Panzergrenadier-Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Panzergrenadier-Division" }
+	}
+  	if = {
+		limit = { has_template = "Morges Division" }
+		set_division_template_lock = { division_template = "Morges Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Morges Division" }
+	}
+  	if = {
+		limit = { has_template = "非正规骑兵师" }
+		set_division_template_lock = { division_template = "非正规骑兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "非正规骑兵师" }
+	}
+  	if = {
+		limit = { has_template = "Hippogriffian Volunteers" }
+		set_division_template_lock = { division_template = "Hippogriffian Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Hippogriffian Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Tamed Dragons" }
+		set_division_template_lock = { division_template = "Tamed Dragons" is_locked = no }
+		clear_division_template_cap = { division_template = "Tamed Dragons" }
+	}
+  	if = {
+		limit = { has_template = "Garde Rouj" }
+		set_division_template_lock = { division_template = "Garde Rouj" is_locked = no }
+		clear_division_template_cap = { division_template = "Garde Rouj" }
+	}
+  	if = {
+		limit = { has_template = "苏联特种旅" }
+		set_division_template_lock = { division_template = "苏联特种旅" is_locked = no }
+		clear_division_template_cap = { division_template = "苏联特种旅" }
+	}
+  	if = {
+		limit = { has_template = "国民突击队" }
+		set_division_template_lock = { division_template = "国民突击队" is_locked = no }
+		clear_division_template_cap = { division_template = "国民突击队" }
+	}
+  	if = {
+		limit = { has_template = "日本远征军" }
+		set_division_template_lock = { division_template = "日本远征军" is_locked = no }
+		clear_division_template_cap = { division_template = "日本远征军" }
+	}
+  	if = {
+		limit = { has_template = "疑兵师" }
+		set_division_template_lock = { division_template = "疑兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "疑兵师" }
+	}
+  	if = {
+		limit = { has_template = "Oi Myrioi" }
+		set_division_template_lock = { division_template = "Oi Myrioi" is_locked = no }
+		clear_division_template_cap = { division_template = "Oi Myrioi" }
+	}
+  	if = {
+		limit = { has_template = "SS-Sturmbrigade" }
+		set_division_template_lock = { division_template = "SS-Sturmbrigade" is_locked = no }
+		clear_division_template_cap = { division_template = "SS-Sturmbrigade" }
+	}
+  	if = {
+		limit = { has_template = "惩戒营" }
+		set_division_template_lock = { division_template = "惩戒营" is_locked = no }
+		clear_division_template_cap = { division_template = "惩戒营" }
+	}
+  	if = {
+		limit = { has_template = "Rotes Regiment" }
+		set_division_template_lock = { division_template = "Rotes Regiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Rotes Regiment" }
+	}
+  	if = {
+		limit = { has_template = "Shuebat Alnizamia" }
+		set_division_template_lock = { division_template = "Shuebat Alnizamia" is_locked = no }
+		clear_division_template_cap = { division_template = "Shuebat Alnizamia" }
+	}
+  	if = {
+		limit = { has_template = "Bergsteiger-Abteilung" }
+		set_division_template_lock = { division_template = "Bergsteiger-Abteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "Bergsteiger-Abteilung" }
+	}
+  	if = {
+		limit = { has_template = "Jingrui Jingwei Shi" }
+		set_division_template_lock = { division_template = "Jingrui Jingwei Shi" is_locked = no }
+		clear_division_template_cap = { division_template = "Jingrui Jingwei Shi" }
+	}
+  	if = {
+		limit = { has_template = "(spz.) Marineabteilung" }
+		set_division_template_lock = { division_template = "(spz.) Marineabteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "(spz.) Marineabteilung" }
+	}
+  	if = {
+		limit = { has_template = "Anarchist Militia" }
+		set_division_template_lock = { division_template = "Anarchist Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Anarchist Militia" }
+	}
+  	if = {
+		limit = { has_template = "厄立特里亚战士师" }
+		set_division_template_lock = { division_template = "厄立特里亚战士师" is_locked = no }
+		clear_division_template_cap = { division_template = "厄立特里亚战士师" }
+	}
+  	if = {
+		limit = { has_template = "Custom TNO Division" }
+		set_division_template_lock = { division_template = "Custom TNO Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Custom TNO Division" }
+	}
+  	if = {
+		limit = { has_template = "Marine-Abteilung Unit" }
+		set_division_template_lock = { division_template = "Marine-Abteilung Unit" is_locked = no }
+		clear_division_template_cap = { division_template = "Marine-Abteilung Unit" }
+	}
+  	if = {
+		limit = { has_template = "National Guard Armored Division" }
+		set_division_template_lock = { division_template = "National Guard Armored Division" is_locked = no }
+		clear_division_template_cap = { division_template = "National Guard Armored Division" }
+	}
+  	if = {
+		limit = { has_template = "Feudal Levy" }
+		set_division_template_lock = { division_template = "Feudal Levy" is_locked = no }
+		clear_division_template_cap = { division_template = "Feudal Levy" }
+	}
+  	if = {
+		limit = { has_template = "党卫军装甲师" }
+		set_division_template_lock = { division_template = "党卫军装甲师" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军装甲师" }
+	}
+  	if = {
+		limit = { has_template = "黑狮军" }
+		set_division_template_lock = { division_template = "黑狮军" is_locked = no }
+		clear_division_template_cap = { division_template = "黑狮军" }
+	}
+  	if = {
+		limit = { has_template = "Riverlander Mercenaries" }
+		set_division_template_lock = { division_template = "Riverlander Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Riverlander Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "银衫军团" }
+		set_division_template_lock = { division_template = "银衫军团" is_locked = no }
+		clear_division_template_cap = { division_template = "银衫军团" }
+	}
+  	if = {
+		limit = { has_template = "公民民兵" }
+		set_division_template_lock = { division_template = "公民民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "公民民兵" }
+	}
+  	if = {
+		limit = { has_template = "Anti-Exploit Punitive Brigade" }
+		set_division_template_lock = { division_template = "Anti-Exploit Punitive Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Anti-Exploit Punitive Brigade" }
+	}
+  	if = {
+		limit = { has_template = "黑衫军旅" }
+		set_division_template_lock = { division_template = "黑衫军旅" is_locked = no }
+		clear_division_template_cap = { division_template = "黑衫军旅" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Popular" }
+		set_division_template_lock = { division_template = "Brigada Popular" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Popular" }
+	}
+  	if = {
+		limit = { has_template = "Foreign Legion" }
+		set_division_template_lock = { division_template = "Foreign Legion" is_locked = no }
+		clear_division_template_cap = { division_template = "Foreign Legion" }
+	}
+  	if = {
+		limit = { has_template = "黑人旅" }
+		set_division_template_lock = { division_template = "黑人旅" is_locked = no }
+		clear_division_template_cap = { division_template = "黑人旅" }
+	}
+  	if = {
+		limit = { has_template = "Last Warband" }
+		set_division_template_lock = { division_template = "Last Warband" is_locked = no }
+		clear_division_template_cap = { division_template = "Last Warband" }
+	}
+  	if = {
+		limit = { has_template = "Arcturian Knights" }
+		set_division_template_lock = { division_template = "Arcturian Knights" is_locked = no }
+		clear_division_template_cap = { division_template = "Arcturian Knights" }
+	}
+  	if = {
+		limit = { has_template = "布哈林派工人民兵" }
+		set_division_template_lock = { division_template = "布哈林派工人民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "布哈林派工人民兵" }
+	}
+  	if = {
+		limit = { has_template = "满洲八旗" }
+		set_division_template_lock = { division_template = "满洲八旗" is_locked = no }
+		clear_division_template_cap = { division_template = "满洲八旗" }
+	}
+  	if = {
+		limit = { has_template = "托洛茨基革命民兵师" }
+		set_division_template_lock = { division_template = "托洛茨基革命民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "托洛茨基革命民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Heimevernet" }
+		set_division_template_lock = { division_template = "Heimevernet" is_locked = no }
+		clear_division_template_cap = { division_template = "Heimevernet" }
+	}
+  	if = {
+		limit = { has_template = "反纳粹旅" }
+		set_division_template_lock = { division_template = "反纳粹旅" is_locked = no }
+		clear_division_template_cap = { division_template = "反纳粹旅" }
+	}
+  	if = {
+		limit = { has_template = "Partisans" }
+		set_division_template_lock = { division_template = "Partisans" is_locked = no }
+		clear_division_template_cap = { division_template = "Partisans" }
+	}
+  	if = {
+		limit = { has_template = "American Garrison" }
+		set_division_template_lock = { division_template = "American Garrison" is_locked = no }
+		clear_division_template_cap = { division_template = "American Garrison" }
+	}
+  	if = {
+		limit = { has_template = "Volunteer Peasants" }
+		set_division_template_lock = { division_template = "Volunteer Peasants" is_locked = no }
+		clear_division_template_cap = { division_template = "Volunteer Peasants" }
+	}
+  	if = {
+		limit = { has_template = "GRVPN" }
+		set_division_template_lock = { division_template = "GRVPN" is_locked = no }
+		clear_division_template_cap = { division_template = "GRVPN" }
+	}
+  	if = {
+		limit = { has_template = "公民骑兵师" }
+		set_division_template_lock = { division_template = "公民骑兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "公民骑兵师" }
+	}
+  	if = {
+		limit = { has_template = "Brigada de Reserva" }
+		set_division_template_lock = { division_template = "Brigada de Reserva" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada de Reserva" }
+	}
+  	if = {
+		limit = { has_template = "女王陛下的德意志军团" }
+		set_division_template_lock = { division_template = "女王陛下的德意志军团" is_locked = no }
+		clear_division_template_cap = { division_template = "女王陛下的德意志军团" }
+	}
+  	if = {
+		limit = { has_template = "内务人民委员部边境卫队" }
+		set_division_template_lock = { division_template = "内务人民委员部边境卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "内务人民委员部边境卫队" }
+	}
+  	if = {
+		limit = { has_template = "步兵旅" }
+		set_division_template_lock = { division_template = "步兵旅" is_locked = no }
+		clear_division_template_cap = { division_template = "步兵旅" }
+	}
+  	if = {
+		limit = { has_template = "Waffen-SS" }
+		set_division_template_lock = { division_template = "Waffen-SS" is_locked = no }
+		clear_division_template_cap = { division_template = "Waffen-SS" }
+	}
+  	if = {
+		limit = { has_template = "Japanese Expeditionary Force" }
+		set_division_template_lock = { division_template = "Japanese Expeditionary Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Japanese Expeditionary Force" }
+	}
+  	if = {
+		limit = { has_template = "南斯拉夫防卫军" }
+		set_division_template_lock = { division_template = "南斯拉夫防卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "南斯拉夫防卫军" }
+	}
+  	if = {
+		limit = { has_template = "(spz.) Panzerabteilung" }
+		set_division_template_lock = { division_template = "(spz.) Panzerabteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "(spz.) Panzerabteilung" }
+	}
+  	if = {
+		limit = { has_template = "Red Battalion" }
+		set_division_template_lock = { division_template = "Red Battalion" is_locked = no }
+		clear_division_template_cap = { division_template = "Red Battalion" }
+	}
+  	if = {
+		limit = { has_template = "沿海步兵团" }
+		set_division_template_lock = { division_template = "沿海步兵团" is_locked = no }
+		clear_division_template_cap = { division_template = "沿海步兵团" }
+	}
+  	if = {
+		limit = { has_template = "Reziman'ny Mpikomy" }
+		set_division_template_lock = { division_template = "Reziman'ny Mpikomy" is_locked = no }
+		clear_division_template_cap = { division_template = "Reziman'ny Mpikomy" }
+	}
+  	if = {
+		limit = { has_template = "Volunteer Militia" }
+		set_division_template_lock = { division_template = "Volunteer Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Volunteer Militia" }
+	}
+  	if = {
+		limit = { has_template = "Canterlot Guard" }
+		set_division_template_lock = { division_template = "Canterlot Guard" is_locked = no }
+		clear_division_template_cap = { division_template = "Canterlot Guard" }
+	}
+  	if = {
+		limit = { has_template = "West Africa Intervention Force" }
+		set_division_template_lock = { division_template = "West Africa Intervention Force" is_locked = no }
+		clear_division_template_cap = { division_template = "West Africa Intervention Force" }
+	}
+  	if = {
+		limit = { has_template = "工人民兵" }
+		set_division_template_lock = { division_template = "工人民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "工人民兵" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Legionario" }
+		set_division_template_lock = { division_template = "Brigada Legionario" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Legionario" }
+	}
+  	if = {
+		limit = { has_template = "人民军预备役" }
+		set_division_template_lock = { division_template = "人民军预备役" is_locked = no }
+		clear_division_template_cap = { division_template = "人民军预备役" }
+	}
+  	if = {
+		limit = { has_template = "Mercenary Chargers" }
+		set_division_template_lock = { division_template = "Mercenary Chargers" is_locked = no }
+		clear_division_template_cap = { division_template = "Mercenary Chargers" }
+	}
+  	if = {
+		limit = { has_template = "Compagnie de Gendarmerie" }
+		set_division_template_lock = { division_template = "Compagnie de Gendarmerie" is_locked = no }
+		clear_division_template_cap = { division_template = "Compagnie de Gendarmerie" }
+	}
+  	if = {
+		limit = { has_template = "印度支那防卫军" }
+		set_division_template_lock = { division_template = "印度支那防卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "印度支那防卫军" }
+	}
+  	if = {
+		limit = { has_template = "农民自卫军" }
+		set_division_template_lock = { division_template = "农民自卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "农民自卫军" }
+	}
+  	if = {
+		limit = { has_template = "KPD Partisans" }
+		set_division_template_lock = { division_template = "KPD Partisans" is_locked = no }
+		clear_division_template_cap = { division_template = "KPD Partisans" }
+	}
+  	if = {
+		limit = { has_template = "叙利亚防卫军" }
+		set_division_template_lock = { division_template = "叙利亚防卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "叙利亚防卫军" }
+	}
+  	if = {
+		limit = { has_template = "Opposition Partisan Brigade" }
+		set_division_template_lock = { division_template = "Opposition Partisan Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Opposition Partisan Brigade" }
+	}
+  	if = {
+		limit = { has_template = "索马里殖民地师" }
+		set_division_template_lock = { division_template = "索马里殖民地师" is_locked = no }
+		clear_division_template_cap = { division_template = "索马里殖民地师" }
+	}
+  	if = {
+		limit = { has_template = "Imperial Guard Division" }
+		set_division_template_lock = { division_template = "Imperial Guard Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Imperial Guard Division" }
+	}
+  	if = {
+		limit = { has_template = "山地师" }
+		set_division_template_lock = { division_template = "山地师" is_locked = no }
+		clear_division_template_cap = { division_template = "山地师" }
+	}
+  	if = {
+		limit = { has_template = "孟加拉国解放军" }
+		set_division_template_lock = { division_template = "孟加拉国解放军" is_locked = no }
+		clear_division_template_cap = { division_template = "孟加拉国解放军" }
+	}
+  	if = {
+		limit = { has_template = "游击师" }
+		set_division_template_lock = { division_template = "游击师" is_locked = no }
+		clear_division_template_cap = { division_template = "游击师" }
+	}
+  	if = {
+		limit = { has_template = "CSI Cave Defense" }
+		set_division_template_lock = { division_template = "CSI Cave Defense" is_locked = no }
+		clear_division_template_cap = { division_template = "CSI Cave Defense" }
+	}
+  	if = {
+		limit = { has_template = "Colthaginian Mercenaries" }
+		set_division_template_lock = { division_template = "Colthaginian Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Colthaginian Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "警卫" }
+		set_division_template_lock = { division_template = "警卫" is_locked = no }
+		clear_division_template_cap = { division_template = "警卫" }
+	}
+  	if = {
+		limit = { has_template = "Danske Brigade" }
+		set_division_template_lock = { division_template = "Danske Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Danske Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Reserva" }
+		set_division_template_lock = { division_template = "Reserva" is_locked = no }
+		clear_division_template_cap = { division_template = "Reserva" }
+	}
+  	if = {
+		limit = { has_template = "ANZAC Battle Group" }
+		set_division_template_lock = { division_template = "ANZAC Battle Group" is_locked = no }
+		clear_division_template_cap = { division_template = "ANZAC Battle Group" }
+	}
+  	if = {
+		limit = { has_template = "Black Lions" }
+		set_division_template_lock = { division_template = "Black Lions" is_locked = no }
+		clear_division_template_cap = { division_template = "Black Lions" }
+	}
+  	if = {
+		limit = { has_template = "Carabineros Patrios de Chile" }
+		set_division_template_lock = { division_template = "Carabineros Patrios de Chile" is_locked = no }
+		clear_division_template_cap = { division_template = "Carabineros Patrios de Chile" }
+	}
+  	if = {
+		limit = { has_template = "美国警备队" }
+		set_division_template_lock = { division_template = "美国警备队" is_locked = no }
+		clear_division_template_cap = { division_template = "美国警备队" }
+	}
+  	if = {
+		limit = { has_template = "SS Panzergrenadier Division" }
+		set_division_template_lock = { division_template = "SS Panzergrenadier Division" is_locked = no }
+		clear_division_template_cap = { division_template = "SS Panzergrenadier Division" }
+	}
+  	if = {
+		limit = { has_template = "Sisters of Eyr" }
+		set_division_template_lock = { division_template = "Sisters of Eyr" is_locked = no }
+		clear_division_template_cap = { division_template = "Sisters of Eyr" }
+	}
+  	if = {
+		limit = { has_template = "轻型旅" }
+		set_division_template_lock = { division_template = "轻型旅" is_locked = no }
+		clear_division_template_cap = { division_template = "轻型旅" }
+	}
+  	if = {
+		limit = { has_template = "Regulars" }
+		set_division_template_lock = { division_template = "Regulars" is_locked = no }
+		clear_division_template_cap = { division_template = "Regulars" }
+	}
+  	if = {
+		limit = { has_template = "Narodnaya Mekhanizirovanaya Batalon" }
+		set_division_template_lock = { division_template = "Narodnaya Mekhanizirovanaya Batalon" is_locked = no }
+		clear_division_template_cap = { division_template = "Narodnaya Mekhanizirovanaya Batalon" }
+	}
+  	if = {
+		limit = { has_template = "民族主义驻军师" }
+		set_division_template_lock = { division_template = "民族主义驻军师" is_locked = no }
+		clear_division_template_cap = { division_template = "民族主义驻军师" }
+	}
+  	if = {
+		limit = { has_template = "Unité de Défense Territoriale" }
+		set_division_template_lock = { division_template = "Unité de Défense Territoriale" is_locked = no }
+		clear_division_template_cap = { division_template = "Unité de Défense Territoriale" }
+	}
+  	if = {
+		limit = { has_template = "Indochina Intervention Force" }
+		set_division_template_lock = { division_template = "Indochina Intervention Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Indochina Intervention Force" }
+	}
+  	if = {
+		limit = { has_template = "巴基斯坦解放军" }
+		set_division_template_lock = { division_template = "巴基斯坦解放军" is_locked = no }
+		clear_division_template_cap = { division_template = "巴基斯坦解放军" }
+	}
+  	if = {
+		limit = { has_template = "Keibitai" }
+		set_division_template_lock = { division_template = "Keibitai" is_locked = no }
+		clear_division_template_cap = { division_template = "Keibitai" }
+	}
+  	if = {
+		limit = { has_template = "Legion of the Damned" }
+		set_division_template_lock = { division_template = "Legion of the Damned" is_locked = no }
+		clear_division_template_cap = { division_template = "Legion of the Damned" }
+	}
+  	if = {
+		limit = { has_template = "Las Pegasus National Guard" }
+		set_division_template_lock = { division_template = "Las Pegasus National Guard" is_locked = no }
+		clear_division_template_cap = { division_template = "Las Pegasus National Guard" }
+	}
+  	if = {
+		limit = { has_template = "西班牙卡洛斯保皇师" }
+		set_division_template_lock = { division_template = "西班牙卡洛斯保皇师" is_locked = no }
+		clear_division_template_cap = { division_template = "西班牙卡洛斯保皇师" }
+	}
+  	if = {
+		limit = { has_template = "精锐边境山地师" }
+		set_division_template_lock = { division_template = "精锐边境山地师" is_locked = no }
+		clear_division_template_cap = { division_template = "精锐边境山地师" }
+	}
+  	if = {
+		limit = { has_template = "Mountaineer Division" }
+		set_division_template_lock = { division_template = "Mountaineer Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Mountaineer Division" }
+	}
+  	if = {
+		limit = { has_template = "Armored Brigade" }
+		set_division_template_lock = { division_template = "Armored Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Armored Brigade" }
+	}
+  	if = {
+		limit = { has_template = "厄立特里亚阿拉伯步兵师" }
+		set_division_template_lock = { division_template = "厄立特里亚阿拉伯步兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "厄立特里亚阿拉伯步兵师" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Agrarista" }
+		set_division_template_lock = { division_template = "Brigada Agrarista" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Agrarista" }
+	}
+  	if = {
+		limit = { has_template = "Rural Levy" }
+		set_division_template_lock = { division_template = "Rural Levy" is_locked = no }
+		clear_division_template_cap = { division_template = "Rural Levy" }
+	}
+  	if = {
+		limit = { has_template = "Dangpai" }
+		set_division_template_lock = { division_template = "Dangpai" is_locked = no }
+		clear_division_template_cap = { division_template = "Dangpai" }
+	}
+  	if = {
+		limit = { has_template = "Coluna Infernal" }
+		set_division_template_lock = { division_template = "Coluna Infernal" is_locked = no }
+		clear_division_template_cap = { division_template = "Coluna Infernal" }
+	}
+  	if = {
+		limit = { has_template = "骑兵师" }
+		set_division_template_lock = { division_template = "骑兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "骑兵师" }
+	}
+  	if = {
+		limit = { has_template = "Karjalan Metsäsissit" }
+		set_division_template_lock = { division_template = "Karjalan Metsäsissit" is_locked = no }
+		clear_division_template_cap = { division_template = "Karjalan Metsäsissit" }
+	}
+  	if = {
+		limit = { has_template = "Legião Estrangeira" }
+		set_division_template_lock = { division_template = "Legião Estrangeira" is_locked = no }
+		clear_division_template_cap = { division_template = "Legião Estrangeira" }
+	}
+  	if = {
+		limit = { has_template = "黑山切特尼克师" }
+		set_division_template_lock = { division_template = "黑山切特尼克师" is_locked = no }
+		clear_division_template_cap = { division_template = "黑山切特尼克师" }
+	}
+  	if = {
+		limit = { has_template = "Volunteers" }
+		set_division_template_lock = { division_template = "Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "马其顿革命军" }
+		set_division_template_lock = { division_template = "马其顿革命军" is_locked = no }
+		clear_division_template_cap = { division_template = "马其顿革命军" }
+	}
+  	if = {
+		limit = { has_template = "祖国团" }
+		set_division_template_lock = { division_template = "祖国团" is_locked = no }
+		clear_division_template_cap = { division_template = "祖国团" }
+	}
+  	if = {
+		limit = { has_template = "FIRCWMilitia" }
+		set_division_template_lock = { division_template = "FIRCWMilitia" is_locked = no }
+		clear_division_template_cap = { division_template = "FIRCWMilitia" }
+	}
+  	if = {
+		limit = { has_template = "Stadtkommando" }
+		set_division_template_lock = { division_template = "Stadtkommando" is_locked = no }
+		clear_division_template_cap = { division_template = "Stadtkommando" }
+	}
+  	if = {
+		limit = { has_template = "Loyalist Militia" }
+		set_division_template_lock = { division_template = "Loyalist Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Loyalist Militia" }
+	}
+  	if = {
+		limit = { has_template = "惩戒步兵师" }
+		set_division_template_lock = { division_template = "惩戒步兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "惩戒步兵师" }
+	}
+  	if = {
+		limit = { has_template = "马克思主义国际纵队" }
+		set_division_template_lock = { division_template = "马克思主义国际纵队" is_locked = no }
+		clear_division_template_cap = { division_template = "马克思主义国际纵队" }
+	}
+  	if = {
+		limit = { has_template = "家园卫队" }
+		set_division_template_lock = { division_template = "家园卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "家园卫队" }
+	}
+  	if = {
+		limit = { has_template = "布里斯托尔“布伦海姆”重型战斗机" }
+		set_division_template_lock = { division_template = "布里斯托尔“布伦海姆”重型战斗机" is_locked = no }
+		clear_division_template_cap = { division_template = "布里斯托尔“布伦海姆”重型战斗机" }
+	}
+  	if = {
+		limit = { has_template = "Canadian Expeditionary Force" }
+		set_division_template_lock = { division_template = "Canadian Expeditionary Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Canadian Expeditionary Force" }
+	}
+  	if = {
+		limit = { has_template = "Incendiary Banner" }
+		set_division_template_lock = { division_template = "Incendiary Banner" is_locked = no }
+		clear_division_template_cap = { division_template = "Incendiary Banner" }
+	}
+  	if = {
+		limit = { has_template = "Riječni Zračni i Kopneni Timovi" }
+		set_division_template_lock = { division_template = "Riječni Zračni i Kopneni Timovi" is_locked = no }
+		clear_division_template_cap = { division_template = "Riječni Zračni i Kopneni Timovi" }
+	}
+  	if = {
+		limit = { has_template = "Anti-Nacistas Brigades" }
+		set_division_template_lock = { division_template = "Anti-Nacistas Brigades" is_locked = no }
+		clear_division_template_cap = { division_template = "Anti-Nacistas Brigades" }
+	}
+  	if = {
+		limit = { has_template = "无政府主义民兵" }
+		set_division_template_lock = { division_template = "无政府主义民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "无政府主义民兵" }
+	}
+  	if = {
+		limit = { has_template = "沙特军" }
+		set_division_template_lock = { division_template = "沙特军" is_locked = no }
+		clear_division_template_cap = { division_template = "沙特军" }
+	}
+  	if = {
+		limit = { has_template = "秘密抵抗组织" }
+		set_division_template_lock = { division_template = "秘密抵抗组织" is_locked = no }
+		clear_division_template_cap = { division_template = "秘密抵抗组织" }
+	}
+  	if = {
+		limit = { has_template = "党卫军精锐装甲掷弹兵师" }
+		set_division_template_lock = { division_template = "党卫军精锐装甲掷弹兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军精锐装甲掷弹兵师" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Internacionales" }
+		set_division_template_lock = { division_template = "Brigada Internacionales" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Internacionales" }
+	}
+  	if = {
+		limit = { has_template = "Integruota spec. operacijų divizija" }
+		set_division_template_lock = { division_template = "Integruota spec. operacijų divizija" is_locked = no }
+		clear_division_template_cap = { division_template = "Integruota spec. operacijų divizija" }
+	}
+  	if = {
+		limit = { has_template = "GSSN Skidivisjon" }
+		set_division_template_lock = { division_template = "GSSN Skidivisjon" is_locked = no }
+		clear_division_template_cap = { division_template = "GSSN Skidivisjon" }
+	}
+  	if = {
+		limit = { has_template = "Guild Security Squadron" }
+		set_division_template_lock = { division_template = "Guild Security Squadron" is_locked = no }
+		clear_division_template_cap = { division_template = "Guild Security Squadron" }
+	}
+  	if = {
+		limit = { has_template = "Exiles" }
+		set_division_template_lock = { division_template = "Exiles" is_locked = no }
+		clear_division_template_cap = { division_template = "Exiles" }
+	}
+  	if = {
+		limit = { has_template = "布哈林派农民自卫军" }
+		set_division_template_lock = { division_template = "布哈林派农民自卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "布哈林派农民自卫军" }
+	}
+  	if = {
+		limit = { has_template = "党卫军摩托化步兵师" }
+		set_division_template_lock = { division_template = "党卫军摩托化步兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军摩托化步兵师" }
+	}
+  	if = {
+		limit = { has_template = "反剥削惩戒旅" }
+		set_division_template_lock = { division_template = "反剥削惩戒旅" is_locked = no }
+		clear_division_template_cap = { division_template = "反剥削惩戒旅" }
+	}
+  	if = {
+		limit = { has_template = "党卫军精锐装甲师" }
+		set_division_template_lock = { division_template = "党卫军精锐装甲师" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军精锐装甲师" }
+	}
+  	if = {
+		limit = { has_template = "共和国卫队" }
+		set_division_template_lock = { division_template = "共和国卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "共和国卫队" }
+	}
+  	if = {
+		limit = { has_template = "Auxillary Brigade" }
+		set_division_template_lock = { division_template = "Auxillary Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Auxillary Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Rannikkorykmentti" }
+		set_division_template_lock = { division_template = "Rannikkorykmentti" is_locked = no }
+		clear_division_template_cap = { division_template = "Rannikkorykmentti" }
+	}
+  	if = {
+		limit = { has_template = "Integralist Militia" }
+		set_division_template_lock = { division_template = "Integralist Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Integralist Militia" }
+	}
+  	if = {
+		limit = { has_template = "Wingbardian Condottieri" }
+		set_division_template_lock = { division_template = "Wingbardian Condottieri" is_locked = no }
+		clear_division_template_cap = { division_template = "Wingbardian Condottieri" }
+	}
+  	if = {
+		limit = { has_template = "Norsk Milits" }
+		set_division_template_lock = { division_template = "Norsk Milits" is_locked = no }
+		clear_division_template_cap = { division_template = "Norsk Milits" }
+	}
+  	if = {
+		limit = { has_template = "帝国近卫师" }
+		set_division_template_lock = { division_template = "帝国近卫师" is_locked = no }
+		clear_division_template_cap = { division_template = "帝国近卫师" }
+	}
+  	if = {
+		limit = { has_template = "党属民兵卫队" }
+		set_division_template_lock = { division_template = "党属民兵卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "党属民兵卫队" }
+	}
+  	if = {
+		limit = { has_template = "Divisione Ascari Eritrea" }
+		set_division_template_lock = { division_template = "Divisione Ascari Eritrea" is_locked = no }
+		clear_division_template_cap = { division_template = "Divisione Ascari Eritrea" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Mixta" }
+		set_division_template_lock = { division_template = "Brigada Mixta" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Mixta" }
+	}
+  	if = {
+		limit = { has_template = "Brigadang Makapili" }
+		set_division_template_lock = { division_template = "Brigadang Makapili" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigadang Makapili" }
+	}
+  	if = {
+		limit = { has_template = "Freie Reiter" }
+		set_division_template_lock = { division_template = "Freie Reiter" is_locked = no }
+		clear_division_template_cap = { division_template = "Freie Reiter" }
+	}
+  	if = {
+		limit = { has_template = "Nacionalnaya Gvardiya Otrjad" }
+		set_division_template_lock = { division_template = "Nacionalnaya Gvardiya Otrjad" is_locked = no }
+		clear_division_template_cap = { division_template = "Nacionalnaya Gvardiya Otrjad" }
+	}
+  	if = {
+		limit = { has_template = "布哈林农民民兵" }
+		set_division_template_lock = { division_template = "布哈林农民民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "布哈林农民民兵" }
+	}
+  	if = {
+		limit = { has_template = "Brigada de Juventudes Sindicales" }
+		set_division_template_lock = { division_template = "Brigada de Juventudes Sindicales" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada de Juventudes Sindicales" }
+	}
+  	if = {
+		limit = { has_template = "'Ansar Sudaniuwn" }
+		set_division_template_lock = { division_template = "'Ansar Sudaniuwn" is_locked = no }
+		clear_division_template_cap = { division_template = "'Ansar Sudaniuwn" }
+	}
+  	if = {
+		limit = { has_template = "Kirin Volunteers" }
+		set_division_template_lock = { division_template = "Kirin Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Kirin Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Ecuatorial" }
+		set_division_template_lock = { division_template = "Brigada Ecuatorial" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Ecuatorial" }
+	}
+  	if = {
+		limit = { has_template = "Schutztruppe" }
+		set_division_template_lock = { division_template = "Schutztruppe" is_locked = no }
+		clear_division_template_cap = { division_template = "Schutztruppe" }
+	}
+  	if = {
+		limit = { has_template = "民兵抵抗师" }
+		set_division_template_lock = { division_template = "民兵抵抗师" is_locked = no }
+		clear_division_template_cap = { division_template = "民兵抵抗师" }
+	}
+  	if = {
+		limit = { has_template = "德国培训师" }
+		set_division_template_lock = { division_template = "德国培训师" is_locked = no }
+		clear_division_template_cap = { division_template = "德国培训师" }
+	}
+  	if = {
+		limit = { has_template = "托派工人民兵" }
+		set_division_template_lock = { division_template = "托派工人民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "托派工人民兵" }
+	}
+  	if = {
+		limit = { has_template = "印度民兵师" }
+		set_division_template_lock = { division_template = "印度民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "印度民兵师" }
+	}
+  	if = {
+		limit = { has_template = "反对派游击队" }
+		set_division_template_lock = { division_template = "反对派游击队" is_locked = no }
+		clear_division_template_cap = { division_template = "反对派游击队" }
+	}
+  	if = {
+		limit = { has_template = "Capital Assurance Unit" }
+		set_division_template_lock = { division_template = "Capital Assurance Unit" is_locked = no }
+		clear_division_template_cap = { division_template = "Capital Assurance Unit" }
+	}
+  	if = {
+		limit = { has_template = "秘密军队" }
+		set_division_template_lock = { division_template = "秘密军队" is_locked = no }
+		clear_division_template_cap = { division_template = "秘密军队" }
+	}
+  	if = {
+		limit = { has_template = "阿拉伯雇佣军" }
+		set_division_template_lock = { division_template = "阿拉伯雇佣军" is_locked = no }
+		clear_division_template_cap = { division_template = "阿拉伯雇佣军" }
+	}
+  	if = {
+		limit = { has_template = "American Volunteers to Iran" }
+		set_division_template_lock = { division_template = "American Volunteers to Iran" is_locked = no }
+		clear_division_template_cap = { division_template = "American Volunteers to Iran" }
+	}
+  	if = {
+		limit = { has_template = "SS Panzer Division" }
+		set_division_template_lock = { division_template = "SS Panzer Division" is_locked = no }
+		clear_division_template_cap = { division_template = "SS Panzer Division" }
+	}
+  	if = {
+		limit = { has_template = "Canadian Expeditionary Light Infantry" }
+		set_division_template_lock = { division_template = "Canadian Expeditionary Light Infantry" is_locked = no }
+		clear_division_template_cap = { division_template = "Canadian Expeditionary Light Infantry" }
+	}
+  	if = {
+		limit = { has_template = "党派" }
+		set_division_template_lock = { division_template = "党派" is_locked = no }
+		clear_division_template_cap = { division_template = "党派" }
+	}
+  	if = {
+		limit = { has_template = "(spz.) Panzergrenadierabteilung" }
+		set_division_template_lock = { division_template = "(spz.) Panzergrenadierabteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "(spz.) Panzergrenadierabteilung" }
+	}
+  	if = {
+		limit = { has_template = "苏联特战旅" }
+		set_division_template_lock = { division_template = "苏联特战旅" is_locked = no }
+		clear_division_template_cap = { division_template = "苏联特战旅" }
+	}
+  	if = {
+		limit = { has_template = "International Marxist Brigades" }
+		set_division_template_lock = { division_template = "International Marxist Brigades" is_locked = no }
+		clear_division_template_cap = { division_template = "International Marxist Brigades" }
+	}
+  	if = {
+		limit = { has_template = "Corporate Para-Motorized Unit" }
+		set_division_template_lock = { division_template = "Corporate Para-Motorized Unit" is_locked = no }
+		clear_division_template_cap = { division_template = "Corporate Para-Motorized Unit" }
+	}
+  	if = {
+		limit = { has_template = "Pegasi Sky Phalanx" }
+		set_division_template_lock = { division_template = "Pegasi Sky Phalanx" is_locked = no }
+		clear_division_template_cap = { division_template = "Pegasi Sky Phalanx" }
+	}
+  	if = {
+		limit = { has_template = "Lushian Hussars" }
+		set_division_template_lock = { division_template = "Lushian Hussars" is_locked = no }
+		clear_division_template_cap = { division_template = "Lushian Hussars" }
+	}
+  	if = {
+		limit = { has_template = "Bangladeshi Liberation Army" }
+		set_division_template_lock = { division_template = "Bangladeshi Liberation Army" is_locked = no }
+		clear_division_template_cap = { division_template = "Bangladeshi Liberation Army" }
+	}
+  	if = {
+		limit = { has_template = "叙利亚干涉军" }
+		set_division_template_lock = { division_template = "叙利亚干涉军" is_locked = no }
+		clear_division_template_cap = { division_template = "叙利亚干涉军" }
+	}
+  	if = {
+		limit = { has_template = "Resistance" }
+		set_division_template_lock = { division_template = "Resistance" is_locked = no }
+		clear_division_template_cap = { division_template = "Resistance" }
+	}
+  	if = {
+		limit = { has_template = "Zrakoplovni Regiment za Specijalne Operacije" }
+		set_division_template_lock = { division_template = "Zrakoplovni Regiment za Specijalne Operacije" is_locked = no }
+		clear_division_template_cap = { division_template = "Zrakoplovni Regiment za Specijalne Operacije" }
+	}
+  	if = {
+		limit = { has_template = "Georgian Volunteers" }
+		set_division_template_lock = { division_template = "Georgian Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Georgian Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Guardia Civil Ibérica" }
+		set_division_template_lock = { division_template = "Guardia Civil Ibérica" is_locked = no }
+		clear_division_template_cap = { division_template = "Guardia Civil Ibérica" }
+	}
+  	if = {
+		limit = { has_template = "Rikugun Shidan - Army Division" }
+		set_division_template_lock = { division_template = "Rikugun Shidan - Army Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Rikugun Shidan - Army Division" }
+	}
+  	if = {
+		limit = { has_template = "Shtrafnaya Chast" }
+		set_division_template_lock = { division_template = "Shtrafnaya Chast" is_locked = no }
+		clear_division_template_cap = { division_template = "Shtrafnaya Chast" }
+	}
+  	if = {
+		limit = { has_template = "Infiltrator-Saboteurs" }
+		set_division_template_lock = { division_template = "Infiltrator-Saboteurs" is_locked = no }
+		clear_division_template_cap = { division_template = "Infiltrator-Saboteurs" }
+	}
+  	if = {
+		limit = { has_template = "无政府主义民兵师" }
+		set_division_template_lock = { division_template = "无政府主义民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "无政府主义民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Banda Irregolare Libica" }
+		set_division_template_lock = { division_template = "Banda Irregolare Libica" is_locked = no }
+		clear_division_template_cap = { division_template = "Banda Irregolare Libica" }
+	}
+  	if = {
+		limit = { has_template = "Dibisyong Pampangulo" }
+		set_division_template_lock = { division_template = "Dibisyong Pampangulo" is_locked = no }
+		clear_division_template_cap = { division_template = "Dibisyong Pampangulo" }
+	}
+  	if = {
+		limit = { has_template = "SS Panzer Division (vollgep.)" }
+		set_division_template_lock = { division_template = "SS Panzer Division (vollgep.)" is_locked = no }
+		clear_division_template_cap = { division_template = "SS Panzer Division (vollgep.)" }
+	}
+  	if = {
+		limit = { has_template = "Soviet Special Brigades" }
+		set_division_template_lock = { division_template = "Soviet Special Brigades" is_locked = no }
+		clear_division_template_cap = { division_template = "Soviet Special Brigades" }
+	}
+  	if = {
+		limit = { has_template = "受训山地旅" }
+		set_division_template_lock = { division_template = "受训山地旅" is_locked = no }
+		clear_division_template_cap = { division_template = "受训山地旅" }
+	}
+  	if = {
+		limit = { has_template = "中非武装防卫军" }
+		set_division_template_lock = { division_template = "中非武装防卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "中非武装防卫军" }
+	}
+  	if = {
+		limit = { has_template = "Warzenan Liberation Army Division" }
+		set_division_template_lock = { division_template = "Warzenan Liberation Army Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Warzenan Liberation Army Division" }
+	}
+  	if = {
+		limit = { has_template = "Rehimen" }
+		set_division_template_lock = { division_template = "Rehimen" is_locked = no }
+		clear_division_template_cap = { division_template = "Rehimen" }
+	}
+  	if = {
+		limit = { has_template = "Royal African Rifles" }
+		set_division_template_lock = { division_template = "Royal African Rifles" is_locked = no }
+		clear_division_template_cap = { division_template = "Royal African Rifles" }
+	}
+  	if = {
+		limit = { has_template = "工会青年" }
+		set_division_template_lock = { division_template = "工会青年" is_locked = no }
+		clear_division_template_cap = { division_template = "工会青年" }
+	}
+  	if = {
+		limit = { has_template = "救国军" }
+		set_division_template_lock = { division_template = "救国军" is_locked = no }
+		clear_division_template_cap = { division_template = "救国军" }
+	}
+  	if = {
+		limit = { has_template = "防卫师" }
+		set_division_template_lock = { division_template = "防卫师" is_locked = no }
+		clear_division_template_cap = { division_template = "防卫师" }
+	}
+  	if = {
+		limit = { has_template = "Loyalist Brigade" }
+		set_division_template_lock = { division_template = "Loyalist Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Loyalist Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Jaeger German Infanterie-Division" }
+		set_division_template_lock = { division_template = "Jaeger German Infanterie-Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Jaeger German Infanterie-Division" }
+	}
+  	if = {
+		limit = { has_template = "殖民地骑兵队" }
+		set_division_template_lock = { division_template = "殖民地骑兵队" is_locked = no }
+		clear_division_template_cap = { division_template = "殖民地骑兵队" }
+	}
+  	if = {
+		limit = { has_template = "Mercenary Hoplites" }
+		set_division_template_lock = { division_template = "Mercenary Hoplites" is_locked = no }
+		clear_division_template_cap = { division_template = "Mercenary Hoplites" }
+	}
+  	if = {
+		limit = { has_template = "Congolese Mercenaries" }
+		set_division_template_lock = { division_template = "Congolese Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Congolese Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "国民军" }
+		set_division_template_lock = { division_template = "国民军" is_locked = no }
+		clear_division_template_cap = { division_template = "国民军" }
+	}
+  	if = {
+		limit = { has_template = "Defence Force" }
+		set_division_template_lock = { division_template = "Defence Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Defence Force" }
+	}
+  	if = {
+		limit = { has_template = "Syria Intervention Force" }
+		set_division_template_lock = { division_template = "Syria Intervention Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Syria Intervention Force" }
+	}
+  	if = {
+		limit = { has_template = "机动司令部" }
+		set_division_template_lock = { division_template = "机动司令部" is_locked = no }
+		clear_division_template_cap = { division_template = "机动司令部" }
+	}
+  	if = {
+		limit = { has_template = "FAINN Division" }
+		set_division_template_lock = { division_template = "FAINN Division" is_locked = no }
+		clear_division_template_cap = { division_template = "FAINN Division" }
+	}
+  	if = {
+		limit = { has_template = "利比亚班队" }
+		set_division_template_lock = { division_template = "利比亚班队" is_locked = no }
+		clear_division_template_cap = { division_template = "利比亚班队" }
+	}
+  	if = {
+		limit = { has_template = "苏联志愿军" }
+		set_division_template_lock = { division_template = "苏联志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "苏联志愿军" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Anarquista" }
+		set_division_template_lock = { division_template = "Brigada Anarquista" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Anarquista" }
+	}
+  	if = {
+		limit = { has_template = "Landstormen Militia" }
+		set_division_template_lock = { division_template = "Landstormen Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Landstormen Militia" }
+	}
+  	if = {
+		limit = { has_template = "国王军" }
+		set_division_template_lock = { division_template = "国王军" is_locked = no }
+		clear_division_template_cap = { division_template = "国王军" }
+	}
+  	if = {
+		limit = { has_template = "忠良旅" }
+		set_division_template_lock = { division_template = "忠良旅" is_locked = no }
+		clear_division_template_cap = { division_template = "忠良旅" }
+	}
+  	if = {
+		limit = { has_template = "Mercenary Cossacks" }
+		set_division_template_lock = { division_template = "Mercenary Cossacks" is_locked = no }
+		clear_division_template_cap = { division_template = "Mercenary Cossacks" }
+	}
+  	if = {
+		limit = { has_template = "Hohei Shidan" }
+		set_division_template_lock = { division_template = "Hohei Shidan" is_locked = no }
+		clear_division_template_cap = { division_template = "Hohei Shidan" }
+	}
+  	if = {
+		limit = { has_template = "Grenzbrigade" }
+		set_division_template_lock = { division_template = "Grenzbrigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Grenzbrigade" }
+	}
+  	if = {
+		limit = { has_template = "Irregular Cavalry Division" }
+		set_division_template_lock = { division_template = "Irregular Cavalry Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Irregular Cavalry Division" }
+	}
+  	if = {
+		limit = { has_template = "Bergsteiger Grenzbrigade" }
+		set_division_template_lock = { division_template = "Bergsteiger Grenzbrigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Bergsteiger Grenzbrigade" }
+	}
+  	if = {
+		limit = { has_template = "行动队" }
+		set_division_template_lock = { division_template = "行动队" is_locked = no }
+		clear_division_template_cap = { division_template = "行动队" }
+	}
+  	if = {
+		limit = { has_template = "Bubing Shi" }
+		set_division_template_lock = { division_template = "Bubing Shi" is_locked = no }
+		clear_division_template_cap = { division_template = "Bubing Shi" }
+	}
+  	if = {
+		limit = { has_template = "Trained Bergsteiger Grenzbrigade" }
+		set_division_template_lock = { division_template = "Trained Bergsteiger Grenzbrigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Trained Bergsteiger Grenzbrigade" }
+	}
+  	if = {
+		limit = { has_template = "Ali Nere" }
+		set_division_template_lock = { division_template = "Ali Nere" is_locked = no }
+		clear_division_template_cap = { division_template = "Ali Nere" }
+	}
+  	if = {
+		limit = { has_template = "Disband Inf" }
+		set_division_template_lock = { division_template = "Disband Inf" is_locked = no }
+		clear_division_template_cap = { division_template = "Disband Inf" }
+	}
+  	if = {
+		limit = { has_template = "布哈林工人民兵" }
+		set_division_template_lock = { division_template = "布哈林工人民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "布哈林工人民兵" }
+	}
+  	if = {
+		limit = { has_template = "Inquisitors" }
+		set_division_template_lock = { division_template = "Inquisitors" is_locked = no }
+		clear_division_template_cap = { division_template = "Inquisitors" }
+	}
+  	if = {
+		limit = { has_template = "Marine Brigade" }
+		set_division_template_lock = { division_template = "Marine Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Marine Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Carabineros" }
+		set_division_template_lock = { division_template = "Carabineros" is_locked = no }
+		clear_division_template_cap = { division_template = "Carabineros" }
+	}
+  	if = {
+		limit = { has_template = "Dragon Mercenaries" }
+		set_division_template_lock = { division_template = "Dragon Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Dragon Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "Volkssturm" }
+		set_division_template_lock = { division_template = "Volkssturm" is_locked = no }
+		clear_division_template_cap = { division_template = "Volkssturm" }
+	}
+  	if = {
+		limit = { has_template = "红衫军" }
+		set_division_template_lock = { division_template = "红衫军" is_locked = no }
+		clear_division_template_cap = { division_template = "红衫军" }
+	}
+  	if = {
+		limit = { has_template = "保皇党民兵师" }
+		set_division_template_lock = { division_template = "保皇党民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "保皇党民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Konoe Shidan" }
+		set_division_template_lock = { division_template = "Konoe Shidan" is_locked = no }
+		clear_division_template_cap = { division_template = "Konoe Shidan" }
+	}
+  	if = {
+		limit = { has_template = "Brodfeld's Workers" }
+		set_division_template_lock = { division_template = "Brodfeld's Workers" is_locked = no }
+		clear_division_template_cap = { division_template = "Brodfeld's Workers" }
+	}
+  	if = {
+		limit = { has_template = "外籍军团" }
+		set_division_template_lock = { division_template = "外籍军团" is_locked = no }
+		clear_division_template_cap = { division_template = "外籍军团" }
+	}
+  	if = {
+		limit = { has_template = "八旗师" }
+		set_division_template_lock = { division_template = "八旗师" is_locked = no }
+		clear_division_template_cap = { division_template = "八旗师" }
+	}
+  	if = {
+		limit = { has_template = "武装党卫队" }
+		set_division_template_lock = { division_template = "武装党卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "武装党卫队" }
+	}
+  	if = {
+		limit = { has_template = "Bloedjagers" }
+		set_division_template_lock = { division_template = "Bloedjagers" is_locked = no }
+		clear_division_template_cap = { division_template = "Bloedjagers" }
+	}
+  	if = {
+		limit = { has_template = "Columna Blindada Legionaria" }
+		set_division_template_lock = { division_template = "Columna Blindada Legionaria" is_locked = no }
+		clear_division_template_cap = { division_template = "Columna Blindada Legionaria" }
+	}
+  	if = {
+		limit = { has_template = "CLA Militia" }
+		set_division_template_lock = { division_template = "CLA Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "CLA Militia" }
+	}
+  	if = {
+		limit = { has_template = "Trained Bergsteiger-Abteilung" }
+		set_division_template_lock = { division_template = "Trained Bergsteiger-Abteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "Trained Bergsteiger-Abteilung" }
+	}
+  	if = {
+		limit = { has_template = "志愿团" }
+		set_division_template_lock = { division_template = "志愿团" is_locked = no }
+		clear_division_template_cap = { division_template = "志愿团" }
+	}
+  	if = {
+		limit = { has_template = "SS Waffen-Grenadier-Division" }
+		set_division_template_lock = { division_template = "SS Waffen-Grenadier-Division" is_locked = no }
+		clear_division_template_cap = { division_template = "SS Waffen-Grenadier-Division" }
+	}
+  	if = {
+		limit = { has_template = "党卫军武装榴弹兵师" }
+		set_division_template_lock = { division_template = "党卫军武装榴弹兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军武装榴弹兵师" }
+	}
+  	if = {
+		limit = { has_template = "托洛茨基主义工人民兵" }
+		set_division_template_lock = { division_template = "托洛茨基主义工人民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "托洛茨基主义工人民兵" }
+	}
+  	if = {
+		limit = { has_template = "Forest Brothers" }
+		set_division_template_lock = { division_template = "Forest Brothers" is_locked = no }
+		clear_division_template_cap = { division_template = "Forest Brothers" }
+	}
+  	if = {
+		limit = { has_template = "国际旅" }
+		set_division_template_lock = { division_template = "国际旅" is_locked = no }
+		clear_division_template_cap = { division_template = "国际旅" }
+	}
+  	if = {
+		limit = { has_template = "军团司令部" }
+		set_division_template_lock = { division_template = "军团司令部" is_locked = no }
+		clear_division_template_cap = { division_template = "军团司令部" }
+	}
+  	if = {
+		limit = { has_template = "Indochina Defense Force" }
+		set_division_template_lock = { division_template = "Indochina Defense Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Indochina Defense Force" }
+	}
+  	if = {
+		limit = { has_template = "West African Expeditionary Force" }
+		set_division_template_lock = { division_template = "West African Expeditionary Force" is_locked = no }
+		clear_division_template_cap = { division_template = "West African Expeditionary Force" }
+	}
+  	if = {
+		limit = { has_template = "Infantry Division" }
+		set_division_template_lock = { division_template = "Infantry Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Infantry Division" }
+	}
+  	if = {
+		limit = { has_template = "Forsvarsmilitser" }
+		set_division_template_lock = { division_template = "Forsvarsmilitser" is_locked = no }
+		clear_division_template_cap = { division_template = "Forsvarsmilitser" }
+	}
+  	if = {
+		limit = { has_template = "Truppe Irregolari a Cavallo" }
+		set_division_template_lock = { division_template = "Truppe Irregolari a Cavallo" is_locked = no }
+		clear_division_template_cap = { division_template = "Truppe Irregolari a Cavallo" }
+	}
+  	if = {
+		limit = { has_template = "Fifth Columnist Brigade" }
+		set_division_template_lock = { division_template = "Fifth Columnist Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Fifth Columnist Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Motorized Division" }
+		set_division_template_lock = { division_template = "Motorized Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Motorized Division" }
+	}
+  	if = {
+		limit = { has_template = "Jager Division" }
+		set_division_template_lock = { division_template = "Jager Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Jager Division" }
+	}
+  	if = {
+		limit = { has_template = "德共游击队" }
+		set_division_template_lock = { division_template = "德共游击队" is_locked = no }
+		clear_division_template_cap = { division_template = "德共游击队" }
+	}
+  	if = {
+		limit = { has_template = "Militia" }
+		set_division_template_lock = { division_template = "Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Militia" }
+	}
+  	if = {
+		limit = { has_template = "精锐山地旅" }
+		set_division_template_lock = { division_template = "精锐山地旅" is_locked = no }
+		clear_division_template_cap = { division_template = "精锐山地旅" }
+	}
+  	if = {
+		limit = { has_template = "Syria Defense Force" }
+		set_division_template_lock = { division_template = "Syria Defense Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Syria Defense Force" }
+	}
+  	if = {
+		limit = { has_template = "Peasant Divisions" }
+		set_division_template_lock = { division_template = "Peasant Divisions" is_locked = no }
+		clear_division_template_cap = { division_template = "Peasant Divisions" }
+	}
+  	if = {
+		limit = { has_template = "卡洛斯呼啸兵" }
+		set_division_template_lock = { division_template = "卡洛斯呼啸兵" is_locked = no }
+		clear_division_template_cap = { division_template = "卡洛斯呼啸兵" }
+	}
+  	if = {
+		limit = { has_template = "Jōsetsu Shidan" }
+		set_division_template_lock = { division_template = "Jōsetsu Shidan" is_locked = no }
+		clear_division_template_cap = { division_template = "Jōsetsu Shidan" }
+	}
+  	if = {
+		limit = { has_template = "Silver Legion" }
+		set_division_template_lock = { division_template = "Silver Legion" is_locked = no }
+		clear_division_template_cap = { division_template = "Silver Legion" }
+	}
+  	if = {
+		limit = { has_template = "Xikang Zhìyuàn zhě" }
+		set_division_template_lock = { division_template = "Xikang Zhìyuàn zhě" is_locked = no }
+		clear_division_template_cap = { division_template = "Xikang Zhìyuàn zhě" }
+	}
+  	if = {
+		limit = { has_template = "Chernaya Gvardiya" }
+		set_division_template_lock = { division_template = "Chernaya Gvardiya" is_locked = no }
+		clear_division_template_cap = { division_template = "Chernaya Gvardiya" }
+	}
+  	if = {
+		limit = { has_template = "Leichte-Brigade" }
+		set_division_template_lock = { division_template = "Leichte-Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Leichte-Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Brigada de la Guardia Civil" }
+		set_division_template_lock = { division_template = "Brigada de la Guardia Civil" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada de la Guardia Civil" }
+	}
+  	if = {
+		limit = { has_template = "(spz.) Fallschirmjägerabteilung" }
+		set_division_template_lock = { division_template = "(spz.) Fallschirmjägerabteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "(spz.) Fallschirmjägerabteilung" }
+	}
+  	if = {
+		limit = { has_template = "Unemployed Squatters" }
+		set_division_template_lock = { division_template = "Unemployed Squatters" is_locked = no }
+		clear_division_template_cap = { division_template = "Unemployed Squatters" }
+	}
+  	if = {
+		limit = { has_template = "Columna Legionaria" }
+		set_division_template_lock = { division_template = "Columna Legionaria" is_locked = no }
+		clear_division_template_cap = { division_template = "Columna Legionaria" }
+	}
+  	if = {
+		limit = { has_template = "女王陛下的德国军团" }
+		set_division_template_lock = { division_template = "女王陛下的德国军团" is_locked = no }
+		clear_division_template_cap = { division_template = "女王陛下的德国军团" }
+	}
+  	if = {
+		limit = { has_template = "Bukharinist Peasant Militia" }
+		set_division_template_lock = { division_template = "Bukharinist Peasant Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Bukharinist Peasant Militia" }
+	}
+  	if = {
+		limit = { has_template = "森林兄弟" }
+		set_division_template_lock = { division_template = "森林兄弟" is_locked = no }
+		clear_division_template_cap = { division_template = "森林兄弟" }
+	}
+  	if = {
+		limit = { has_template = "Japanese Volunteers" }
+		set_division_template_lock = { division_template = "Japanese Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Japanese Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "国民警卫旅" }
+		set_division_template_lock = { division_template = "国民警卫旅" is_locked = no }
+		clear_division_template_cap = { division_template = "国民警卫旅" }
+	}
+  	if = {
+		limit = { has_template = "Mobile Desert Corps Infantry Division" }
+		set_division_template_lock = { division_template = "Mobile Desert Corps Infantry Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Mobile Desert Corps Infantry Division" }
+	}
+  	if = {
+		limit = { has_template = "Sudanese Mercenaries" }
+		set_division_template_lock = { division_template = "Sudanese Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Sudanese Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "Leopold Schmeller" }
+		set_division_template_lock = { division_template = "Leopold Schmeller" is_locked = no }
+		clear_division_template_cap = { division_template = "Leopold Schmeller" }
+	}
+  	if = {
+		limit = { has_template = "Chiropterran Expeditionary Corps" }
+		set_division_template_lock = { division_template = "Chiropterran Expeditionary Corps" is_locked = no }
+		clear_division_template_cap = { division_template = "Chiropterran Expeditionary Corps" }
+	}
+  	if = {
+		limit = { has_template = "独立营" }
+		set_division_template_lock = { division_template = "独立营" is_locked = no }
+		clear_division_template_cap = { division_template = "独立营" }
+	}
+  	if = {
+		limit = { has_template = "Sons of Arcturius" }
+		set_division_template_lock = { division_template = "Sons of Arcturius" is_locked = no }
+		clear_division_template_cap = { division_template = "Sons of Arcturius" }
+	}
+  	if = {
+		limit = { has_template = "Trotskyist Workers' Militia" }
+		set_division_template_lock = { division_template = "Trotskyist Workers' Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Trotskyist Workers' Militia" }
+	}
+  	if = {
+		limit = { has_template = "托洛茨基主义革命民兵" }
+		set_division_template_lock = { division_template = "托洛茨基主义革命民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "托洛茨基主义革命民兵" }
+	}
+  	if = {
+		limit = { has_template = "边境山地师" }
+		set_division_template_lock = { division_template = "边境山地师" is_locked = no }
+		clear_division_template_cap = { division_template = "边境山地师" }
+	}
+  	if = {
+		limit = { has_template = "Rangaistusdivisioona" }
+		set_division_template_lock = { division_template = "Rangaistusdivisioona" is_locked = no }
+		clear_division_template_cap = { division_template = "Rangaistusdivisioona" }
+	}
+  	if = {
+		limit = { has_template = "无政府主义旅" }
+		set_division_template_lock = { division_template = "无政府主义旅" is_locked = no }
+		clear_division_template_cap = { division_template = "无政府主义旅" }
+	}
+  	if = {
+		limit = { has_template = "受训边境山地师" }
+		set_division_template_lock = { division_template = "受训边境山地师" is_locked = no }
+		clear_division_template_cap = { division_template = "受训边境山地师" }
+	}
+  	if = {
+		limit = { has_template = "毛利人志愿军" }
+		set_division_template_lock = { division_template = "毛利人志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "毛利人志愿军" }
+	}
+  	if = {
+		limit = { has_template = "爱国者联盟斗士军" }
+		set_division_template_lock = { division_template = "爱国者联盟斗士军" is_locked = no }
+		clear_division_template_cap = { division_template = "爱国者联盟斗士军" }
+	}
+  	if = {
+		limit = { has_template = "Modstandsbevægelsen Militia" }
+		set_division_template_lock = { division_template = "Modstandsbevægelsen Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Modstandsbevægelsen Militia" }
+	}
+  	if = {
+		limit = { has_template = "SS Panzergrenadier Division (n.A.)" }
+		set_division_template_lock = { division_template = "SS Panzergrenadier Division (n.A.)" is_locked = no }
+		clear_division_template_cap = { division_template = "SS Panzergrenadier Division (n.A.)" }
+	}
+  	if = {
+		limit = { has_template = "Herzland Landsknechte" }
+		set_division_template_lock = { division_template = "Herzland Landsknechte" is_locked = no }
+		clear_division_template_cap = { division_template = "Herzland Landsknechte" }
+	}
+  	if = {
+		limit = { has_template = "Milishia Qabalia" }
+		set_division_template_lock = { division_template = "Milishia Qabalia" is_locked = no }
+		clear_division_template_cap = { division_template = "Milishia Qabalia" }
+	}
+  	if = {
+		limit = { has_template = "Teishin Shudan" }
+		set_division_template_lock = { division_template = "Teishin Shudan" is_locked = no }
+		clear_division_template_cap = { division_template = "Teishin Shudan" }
+	}
+  	if = {
+		limit = { has_template = "叙利亚干预部队" }
+		set_division_template_lock = { division_template = "叙利亚干预部队" is_locked = no }
+		clear_division_template_cap = { division_template = "叙利亚干预部队" }
+	}
+  	if = {
+		limit = { has_template = "Noblepony Group" }
+		set_division_template_lock = { division_template = "Noblepony Group" is_locked = no }
+		clear_division_template_cap = { division_template = "Noblepony Group" }
+	}
+  	if = {
+		limit = { has_template = "Changeling Scouts" }
+		set_division_template_lock = { division_template = "Changeling Scouts" is_locked = no }
+		clear_division_template_cap = { division_template = "Changeling Scouts" }
+	}
+  	if = {
+		limit = { has_template = "人民旅" }
+		set_division_template_lock = { division_template = "人民旅" is_locked = no }
+		clear_division_template_cap = { division_template = "人民旅" }
+	}
+  	if = {
+		limit = { has_template = "FFI Demi-Brigade" }
+		set_division_template_lock = { division_template = "FFI Demi-Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "FFI Demi-Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Vermelha" }
+		set_division_template_lock = { division_template = "Brigada Vermelha" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Vermelha" }
+	}
+  	if = {
+		limit = { has_template = "Republican Guard" }
+		set_division_template_lock = { division_template = "Republican Guard" is_locked = no }
+		clear_division_template_cap = { division_template = "Republican Guard" }
+	}
+  	if = {
+		limit = { has_template = "Volontaires de la France Libre" }
+		set_division_template_lock = { division_template = "Volontaires de la France Libre" is_locked = no }
+		clear_division_template_cap = { division_template = "Volontaires de la France Libre" }
+	}
+  	if = {
+		limit = { has_template = "forsvarsmilitser" }
+		set_division_template_lock = { division_template = "forsvarsmilitser" is_locked = no }
+		clear_division_template_cap = { division_template = "forsvarsmilitser" }
+	}
+  	if = {
+		limit = { has_template = "工人民兵师" }
+		set_division_template_lock = { division_template = "工人民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "工人民兵师" }
+	}
+  	if = {
+		limit = { has_template = "黑衫军" }
+		set_division_template_lock = { division_template = "黑衫军" is_locked = no }
+		clear_division_template_cap = { division_template = "黑衫军" }
+	}
+  	if = {
+		limit = { has_template = "东非非正规师" }
+		set_division_template_lock = { division_template = "东非非正规师" is_locked = no }
+		clear_division_template_cap = { division_template = "东非非正规师" }
+	}
+  	if = {
+		limit = { has_template = "芬兰黑衫军" }
+		set_division_template_lock = { division_template = "芬兰黑衫军" is_locked = no }
+		clear_division_template_cap = { division_template = "芬兰黑衫军" }
+	}
+  	if = {
+		limit = { has_template = "后备军" }
+		set_division_template_lock = { division_template = "后备军" is_locked = no }
+		clear_division_template_cap = { division_template = "后备军" }
+	}
+  	if = {
+		limit = { has_template = "突击师" }
+		set_division_template_lock = { division_template = "突击师" is_locked = no }
+		clear_division_template_cap = { division_template = "突击师" }
+	}
+  	if = {
+		limit = { has_template = "Brodfeld's Civilians" }
+		set_division_template_lock = { division_template = "Brodfeld's Civilians" is_locked = no }
+		clear_division_template_cap = { division_template = "Brodfeld's Civilians" }
+	}
+  	if = {
+		limit = { has_template = "党卫军晚期装甲师" }
+		set_division_template_lock = { division_template = "党卫军晚期装甲师" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军晚期装甲师" }
+	}
+  	if = {
+		limit = { has_template = "Coltvan Mercenaries" }
+		set_division_template_lock = { division_template = "Coltvan Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Coltvan Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "布里斯托尔 布伦海姆" }
+		set_division_template_lock = { division_template = "布里斯托尔 布伦海姆" is_locked = no }
+		clear_division_template_cap = { division_template = "布里斯托尔 布伦海姆" }
+	}
+  	if = {
+		limit = { has_template = "Home Guard" }
+		set_division_template_lock = { division_template = "Home Guard" is_locked = no }
+		clear_division_template_cap = { division_template = "Home Guard" }
+	}
+  	if = {
+		limit = { has_template = "Hemmelige Hæren" }
+		set_division_template_lock = { division_template = "Hemmelige Hæren" is_locked = no }
+		clear_division_template_cap = { division_template = "Hemmelige Hæren" }
+	}
+  	if = {
+		limit = { has_template = "Mustapaidat" }
+		set_division_template_lock = { division_template = "Mustapaidat" is_locked = no }
+		clear_division_template_cap = { division_template = "Mustapaidat" }
+	}
+  	if = {
+		limit = { has_template = "Guardia Rossa" }
+		set_division_template_lock = { division_template = "Guardia Rossa" is_locked = no }
+		clear_division_template_cap = { division_template = "Guardia Rossa" }
+	}
+  	if = {
+		limit = { has_template = "Canterlot Garrison" }
+		set_division_template_lock = { division_template = "Canterlot Garrison" is_locked = no }
+		clear_division_template_cap = { division_template = "Canterlot Garrison" }
+	}
+  	if = {
+		limit = { has_template = "Royal Military Police" }
+		set_division_template_lock = { division_template = "Royal Military Police" is_locked = no }
+		clear_division_template_cap = { division_template = "Royal Military Police" }
+	}
+  	if = {
+		limit = { has_template = "International Brigades" }
+		set_division_template_lock = { division_template = "International Brigades" is_locked = no }
+		clear_division_template_cap = { division_template = "International Brigades" }
+	}
+  	if = {
+		limit = { has_template = "非正规师" }
+		set_division_template_lock = { division_template = "非正规师" is_locked = no }
+		clear_division_template_cap = { division_template = "非正规师" }
+	}
+  	if = {
+		limit = { has_template = "Tribal War Party" }
+		set_division_template_lock = { division_template = "Tribal War Party" is_locked = no }
+		clear_division_template_cap = { division_template = "Tribal War Party" }
+	}
+  	if = {
+		limit = { has_template = "Requeté Carlista" }
+		set_division_template_lock = { division_template = "Requeté Carlista" is_locked = no }
+		clear_division_template_cap = { division_template = "Requeté Carlista" }
+	}
+  	if = {
+		limit = { has_template = "Workers Militia" }
+		set_division_template_lock = { division_template = "Workers Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Workers Militia" }
+	}
+  	if = {
+		limit = { has_template = "Redemption Army" }
+		set_division_template_lock = { division_template = "Redemption Army" is_locked = no }
+		clear_division_template_cap = { division_template = "Redemption Army" }
+	}
+  	if = {
+		limit = { has_template = "Swiss Citizen Militia" }
+		set_division_template_lock = { division_template = "Swiss Citizen Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Swiss Citizen Militia" }
+	}
+  	if = {
+		limit = { has_template = "Armenian Volunteers" }
+		set_division_template_lock = { division_template = "Armenian Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Armenian Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Cavalleria Coloniale" }
+		set_division_template_lock = { division_template = "Cavalleria Coloniale" is_locked = no }
+		clear_division_template_cap = { division_template = "Cavalleria Coloniale" }
+	}
+  	if = {
+		limit = { has_template = "内务部边防师" }
+		set_division_template_lock = { division_template = "内务部边防师" is_locked = no }
+		clear_division_template_cap = { division_template = "内务部边防师" }
+	}
+  	if = {
+		limit = { has_template = "孟加拉人民解放军" }
+		set_division_template_lock = { division_template = "孟加拉人民解放军" is_locked = no }
+		clear_division_template_cap = { division_template = "孟加拉人民解放军" }
+	}
+  	if = {
+		limit = { has_template = "受训军团司令部" }
+		set_division_template_lock = { division_template = "受训军团司令部" is_locked = no }
+		clear_division_template_cap = { division_template = "受训军团司令部" }
+	}
+  	if = {
+		limit = { has_template = "Worker Militia" }
+		set_division_template_lock = { division_template = "Worker Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Worker Militia" }
+	}
+  	if = {
+		limit = { has_template = "Frontier Banner" }
+		set_division_template_lock = { division_template = "Frontier Banner" is_locked = no }
+		clear_division_template_cap = { division_template = "Frontier Banner" }
+	}
+  	if = {
+		limit = { has_template = "囚犯营" }
+		set_division_template_lock = { division_template = "囚犯营" is_locked = no }
+		clear_division_template_cap = { division_template = "囚犯营" }
+	}
+  	if = {
+		limit = { has_template = "Experimental Armoured Brigade" }
+		set_division_template_lock = { division_template = "Experimental Armoured Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Experimental Armoured Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Territorialetruppe" }
+		set_division_template_lock = { division_template = "Territorialetruppe" is_locked = no }
+		clear_division_template_cap = { division_template = "Territorialetruppe" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Argentina" }
+		set_division_template_lock = { division_template = "Brigada Argentina" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Argentina" }
+	}
+  	if = {
+		limit = { has_template = "Corporate Para-Militia" }
+		set_division_template_lock = { division_template = "Corporate Para-Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Corporate Para-Militia" }
+	}
+  	if = {
+		limit = { has_template = "American Volunteer Infantry Division" }
+		set_division_template_lock = { division_template = "American Volunteer Infantry Division" is_locked = no }
+		clear_division_template_cap = { division_template = "American Volunteer Infantry Division" }
+	}
+  	if = {
+		limit = { has_template = "Japanese Loyalist Regiment" }
+		set_division_template_lock = { division_template = "Japanese Loyalist Regiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Japanese Loyalist Regiment" }
+	}
+  	if = {
+		limit = { has_template = "Mercenary Ironpaws" }
+		set_division_template_lock = { division_template = "Mercenary Ironpaws" is_locked = no }
+		clear_division_template_cap = { division_template = "Mercenary Ironpaws" }
+	}
+  	if = {
+		limit = { has_template = "Independent Battalion" }
+		set_division_template_lock = { division_template = "Independent Battalion" is_locked = no }
+		clear_division_template_cap = { division_template = "Independent Battalion" }
+	}
+  	if = {
+		limit = { has_template = "Bernier" }
+		set_division_template_lock = { division_template = "Bernier" is_locked = no }
+		clear_division_template_cap = { division_template = "Bernier" }
+	}
+  	if = {
+		limit = { has_template = "Fake Intel Division" }
+		set_division_template_lock = { division_template = "Fake Intel Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Fake Intel Division" }
+	}
+  	if = {
+		limit = { has_template = "殖民地骑兵师" }
+		set_division_template_lock = { division_template = "殖民地骑兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "殖民地骑兵师" }
+	}
+  	if = {
+		limit = { has_template = "Neuvostoliiton Legioona" }
+		set_division_template_lock = { division_template = "Neuvostoliiton Legioona" is_locked = no }
+		clear_division_template_cap = { division_template = "Neuvostoliiton Legioona" }
+	}
+  	if = {
+		limit = { has_template = "海岸兵团" }
+		set_division_template_lock = { division_template = "海岸兵团" is_locked = no }
+		clear_division_template_cap = { division_template = "海岸兵团" }
+	}
+  	if = {
+		limit = { has_template = "Landsturmregiment" }
+		set_division_template_lock = { division_template = "Landsturmregiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Landsturmregiment" }
+	}
+  	if = {
+		limit = { has_template = "Blacktalon Band" }
+		set_division_template_lock = { division_template = "Blacktalon Band" is_locked = no }
+		clear_division_template_cap = { division_template = "Blacktalon Band" }
+	}
+  	if = {
+		limit = { has_template = "Divisione Ascari Libica" }
+		set_division_template_lock = { division_template = "Divisione Ascari Libica" is_locked = no }
+		clear_division_template_cap = { division_template = "Divisione Ascari Libica" }
+	}
+  	if = {
+		limit = { has_template = "托洛茨基主义农民民兵" }
+		set_division_template_lock = { division_template = "托洛茨基主义农民民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "托洛茨基主义农民民兵" }
+	}
+  	if = {
+		limit = { has_template = "Reservetruppen" }
+		set_division_template_lock = { division_template = "Reservetruppen" is_locked = no }
+		clear_division_template_cap = { division_template = "Reservetruppen" }
+	}
+  	if = {
+		limit = { has_template = "Coltjun Militia" }
+		set_division_template_lock = { division_template = "Coltjun Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Coltjun Militia" }
+	}
+  	if = {
+		limit = { has_template = "人民军" }
+		set_division_template_lock = { division_template = "人民军" is_locked = no }
+		clear_division_template_cap = { division_template = "人民军" }
+	}
+  	if = {
+		limit = { has_template = "Z特种部队" }
+		set_division_template_lock = { division_template = "Z特种部队" is_locked = no }
+		clear_division_template_cap = { division_template = "Z特种部队" }
+	}
+  	if = {
+		limit = { has_template = "PCA Militia" }
+		set_division_template_lock = { division_template = "PCA Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "PCA Militia" }
+	}
+  	if = {
+		limit = { has_template = "Prolguard" }
+		set_division_template_lock = { division_template = "Prolguard" is_locked = no }
+		clear_division_template_cap = { division_template = "Prolguard" }
+	}
+  	if = {
+		limit = { has_template = "受训步兵师" }
+		set_division_template_lock = { division_template = "受训步兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "受训步兵师" }
+	}
+  	if = {
+		limit = { has_template = "Kebur Zabagna" }
+		set_division_template_lock = { division_template = "Kebur Zabagna" is_locked = no }
+		clear_division_template_cap = { division_template = "Kebur Zabagna" }
+	}
+  	if = {
+		limit = { has_template = "可移动总部" }
+		set_division_template_lock = { division_template = "可移动总部" is_locked = no }
+		clear_division_template_cap = { division_template = "可移动总部" }
+	}
+  	if = {
+		limit = { has_template = "Maori Volunteers" }
+		set_division_template_lock = { division_template = "Maori Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Maori Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Light Division" }
+		set_division_template_lock = { division_template = "Light Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Light Division" }
+	}
+  	if = {
+		limit = { has_template = "党卫军装甲掷弹兵师" }
+		set_division_template_lock = { division_template = "党卫军装甲掷弹兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "党卫军装甲掷弹兵师" }
+	}
+  	if = {
+		limit = { has_template = "Bergsteiger Brigade" }
+		set_division_template_lock = { division_template = "Bergsteiger Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Bergsteiger Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Fatherland Front Militia" }
+		set_division_template_lock = { division_template = "Fatherland Front Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Fatherland Front Militia" }
+	}
+  	if = {
+		limit = { has_template = "Hirden Milits" }
+		set_division_template_lock = { division_template = "Hirden Milits" is_locked = no }
+		clear_division_template_cap = { division_template = "Hirden Milits" }
+	}
+  	if = {
+		limit = { has_template = "Azerbaijani Volunteers" }
+		set_division_template_lock = { division_template = "Azerbaijani Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Azerbaijani Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "联合青年旅" }
+		set_division_template_lock = { division_template = "联合青年旅" is_locked = no }
+		clear_division_template_cap = { division_template = "联合青年旅" }
+	}
+  	if = {
+		limit = { has_template = "惩戒师" }
+		set_division_template_lock = { division_template = "惩戒师" is_locked = no }
+		clear_division_template_cap = { division_template = "惩戒师" }
+	}
+  	if = {
+		limit = { has_template = "精锐山地师" }
+		set_division_template_lock = { division_template = "精锐山地师" is_locked = no }
+		clear_division_template_cap = { division_template = "精锐山地师" }
+	}
+  	if = {
+		limit = { has_template = "Milicia Nacional" }
+		set_division_template_lock = { division_template = "Milicia Nacional" is_locked = no }
+		clear_division_template_cap = { division_template = "Milicia Nacional" }
+	}
+  	if = {
+		limit = { has_template = "Geriya Revolisyonè" }
+		set_division_template_lock = { division_template = "Geriya Revolisyonè" is_locked = no }
+		clear_division_template_cap = { division_template = "Geriya Revolisyonè" }
+	}
+  	if = {
+		limit = { has_template = "Free Pony Militia" }
+		set_division_template_lock = { division_template = "Free Pony Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Free Pony Militia" }
+	}
+  	if = {
+		limit = { has_template = "Brigada Rebelde del Ejército" }
+		set_division_template_lock = { division_template = "Brigada Rebelde del Ejército" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada Rebelde del Ejército" }
+	}
+  	if = {
+		limit = { has_template = "Guarnición Nacionalista" }
+		set_division_template_lock = { division_template = "Guarnición Nacionalista" is_locked = no }
+		clear_division_template_cap = { division_template = "Guarnición Nacionalista" }
+	}
+  	if = {
+		limit = { has_template = "Nirik Band" }
+		set_division_template_lock = { division_template = "Nirik Band" is_locked = no }
+		clear_division_template_cap = { division_template = "Nirik Band" }
+	}
+  	if = {
+		limit = { has_template = "Territorialnoy Oborony Batalon" }
+		set_division_template_lock = { division_template = "Territorialnoy Oborony Batalon" is_locked = no }
+		clear_division_template_cap = { division_template = "Territorialnoy Oborony Batalon" }
+	}
+  	if = {
+		limit = { has_template = "民兵团" }
+		set_division_template_lock = { division_template = "民兵团" is_locked = no }
+		clear_division_template_cap = { division_template = "民兵团" }
+	}
+  	if = {
+		limit = { has_template = "Batallon Expedicionario Revolucionario" }
+		set_division_template_lock = { division_template = "Batallon Expedicionario Revolucionario" is_locked = no }
+		clear_division_template_cap = { division_template = "Batallon Expedicionario Revolucionario" }
+	}
+  	if = {
+		limit = { has_template = "SS Panzer Division (n.A.)" }
+		set_division_template_lock = { division_template = "SS Panzer Division (n.A.)" is_locked = no }
+		clear_division_template_cap = { division_template = "SS Panzer Division (n.A.)" }
+	}
+  	if = {
+		limit = { has_template = "Mercenary Panzers" }
+		set_division_template_lock = { division_template = "Mercenary Panzers" is_locked = no }
+		clear_division_template_cap = { division_template = "Mercenary Panzers" }
+	}
+  	if = {
+		limit = { has_template = "厄立特里亚殖民地师" }
+		set_division_template_lock = { division_template = "厄立特里亚殖民地师" is_locked = no }
+		clear_division_template_cap = { division_template = "厄立特里亚殖民地师" }
+	}
+  	if = {
+		limit = { has_template = "边防旅" }
+		set_division_template_lock = { division_template = "边防旅" is_locked = no }
+		clear_division_template_cap = { division_template = "边防旅" }
+	}
+  	if = {
+		limit = { has_template = "Prisoner Brigade" }
+		set_division_template_lock = { division_template = "Prisoner Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Prisoner Brigade" }
+	}
+  	if = {
+		limit = { has_template = "German Trained Division" }
+		set_division_template_lock = { division_template = "German Trained Division" is_locked = no }
+		clear_division_template_cap = { division_template = "German Trained Division" }
+	}
+  	if = {
+		limit = { has_template = "赤卫队" }
+		set_division_template_lock = { division_template = "赤卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "赤卫队" }
+	}
+  	if = {
+		limit = { has_template = "苏丹雇佣军" }
+		set_division_template_lock = { division_template = "苏丹雇佣军" is_locked = no }
+		clear_division_template_cap = { division_template = "苏丹雇佣军" }
+	}
+  	if = {
+		limit = { has_template = "Compañía Blindada Revolucionaria" }
+		set_division_template_lock = { division_template = "Compañía Blindada Revolucionaria" is_locked = no }
+		clear_division_template_cap = { division_template = "Compañía Blindada Revolucionaria" }
+	}
+  	if = {
+		limit = { has_template = "武装部队" }
+		set_division_template_lock = { division_template = "武装部队" is_locked = no }
+		clear_division_template_cap = { division_template = "武装部队" }
+	}
+  	if = {
+		limit = { has_template = "Army Civic" }
+		set_division_template_lock = { division_template = "Army Civic" is_locked = no }
+		clear_division_template_cap = { division_template = "Army Civic" }
+	}
+  	if = {
+		limit = { has_template = "智利卡宾枪爱国骑兵" }
+		set_division_template_lock = { division_template = "智利卡宾枪爱国骑兵" is_locked = no }
+		clear_division_template_cap = { division_template = "智利卡宾枪爱国骑兵" }
+	}
+  	if = {
+		limit = { has_template = "Titan" }
+		set_division_template_lock = { division_template = "Titan" is_locked = no }
+		clear_division_template_cap = { division_template = "Titan" }
+	}
+  	if = {
+		limit = { has_template = "阿根廷志愿军" }
+		set_division_template_lock = { division_template = "阿根廷志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "阿根廷志愿军" }
+	}
+  	if = {
+		limit = { has_template = "Changeling Expeditionary Corps" }
+		set_division_template_lock = { division_template = "Changeling Expeditionary Corps" is_locked = no }
+		clear_division_template_cap = { division_template = "Changeling Expeditionary Corps" }
+	}
+  	if = {
+		limit = { has_template = "德意志猎兵师" }
+		set_division_template_lock = { division_template = "德意志猎兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "德意志猎兵师" }
+	}
+  	if = {
+		limit = { has_template = "Spanish Loyalist Division" }
+		set_division_template_lock = { division_template = "Spanish Loyalist Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Spanish Loyalist Division" }
+	}
+  	if = {
+		limit = { has_template = "骆驼骑兵师" }
+		set_division_template_lock = { division_template = "骆驼骑兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "骆驼骑兵师" }
+	}
+  	if = {
+		limit = { has_template = "德国训练师" }
+		set_division_template_lock = { division_template = "德国训练师" is_locked = no }
+		clear_division_template_cap = { division_template = "德国训练师" }
+	}
+  	if = {
+		limit = { has_template = "民兵师" }
+		set_division_template_lock = { division_template = "民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Stormtrupper" }
+		set_division_template_lock = { division_template = "Stormtrupper" is_locked = no }
+		clear_division_template_cap = { division_template = "Stormtrupper" }
+	}
+  	if = {
+		limit = { has_template = "Diamond Dog Mercenaries" }
+		set_division_template_lock = { division_template = "Diamond Dog Mercenaries" is_locked = no }
+		clear_division_template_cap = { division_template = "Diamond Dog Mercenaries" }
+	}
+  	if = {
+		limit = { has_template = "Kollaboratorenbrigade" }
+		set_division_template_lock = { division_template = "Kollaboratorenbrigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Kollaboratorenbrigade" }
+	}
+  	if = {
+		limit = { has_template = "Gallowglasses" }
+		set_division_template_lock = { division_template = "Gallowglasses" is_locked = no }
+		clear_division_template_cap = { division_template = "Gallowglasses" }
+	}
+  	if = {
+		limit = { has_template = "Central Africa Intervention Force" }
+		set_division_template_lock = { division_template = "Central Africa Intervention Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Central Africa Intervention Force" }
+	}
+  	if = {
+		limit = { has_template = "Teritorijalna Odbrana" }
+		set_division_template_lock = { division_template = "Teritorijalna Odbrana" is_locked = no }
+		clear_division_template_cap = { division_template = "Teritorijalna Odbrana" }
+	}
+  	if = {
+		limit = { has_template = "受训轻型旅" }
+		set_division_template_lock = { division_template = "受训轻型旅" is_locked = no }
+		clear_division_template_cap = { division_template = "受训轻型旅" }
+	}
+  	if = {
+		limit = { has_template = "莫尔日阵线步兵师" }
+		set_division_template_lock = { division_template = "莫尔日阵线步兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "莫尔日阵线步兵师" }
+	}
+  	if = {
+		limit = { has_template = "印度支那国防军" }
+		set_division_template_lock = { division_template = "印度支那国防军" is_locked = no }
+		clear_division_template_cap = { division_template = "印度支那国防军" }
+	}
+  	if = {
+		limit = { has_template = "Banda Irregolare Somala" }
+		set_division_template_lock = { division_template = "Banda Irregolare Somala" is_locked = no }
+		clear_division_template_cap = { division_template = "Banda Irregolare Somala" }
+	}
+  	if = {
+		limit = { has_template = "Bristol Blenheim" }
+		set_division_template_lock = { division_template = "Bristol Blenheim" is_locked = no }
+		clear_division_template_cap = { division_template = "Bristol Blenheim" }
+	}
+  	if = {
+		limit = { has_template = "苏联军团" }
+		set_division_template_lock = { division_template = "苏联军团" is_locked = no }
+		clear_division_template_cap = { division_template = "苏联军团" }
+	}
+  	if = {
+		limit = { has_template = "Mobile Desert Corps Armoured Division" }
+		set_division_template_lock = { division_template = "Mobile Desert Corps Armoured Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Mobile Desert Corps Armoured Division" }
+	}
+  	if = {
+		limit = { has_template = "国防军" }
+		set_division_template_lock = { division_template = "国防军" is_locked = no }
+		clear_division_template_cap = { division_template = "国防军" }
+	}
+  	if = {
+		limit = { has_template = "Commune Militia" }
+		set_division_template_lock = { division_template = "Commune Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Commune Militia" }
+	}
+  	if = {
+		limit = { has_template = "Brigada del Ejército" }
+		set_division_template_lock = { division_template = "Brigada del Ejército" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigada del Ejército" }
+	}
+  	if = {
+		limit = { has_template = "Arbegnoch Fighters" }
+		set_division_template_lock = { division_template = "Arbegnoch Fighters" is_locked = no }
+		clear_division_template_cap = { division_template = "Arbegnoch Fighters" }
+	}
+  	if = {
+		limit = { has_template = "Infantry Brigade" }
+		set_division_template_lock = { division_template = "Infantry Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Infantry Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Militiakirin Banner" }
+		set_division_template_lock = { division_template = "Militiakirin Banner" is_locked = no }
+		clear_division_template_cap = { division_template = "Militiakirin Banner" }
+	}
+  	if = {
+		limit = { has_template = "Voluntarios Argentinos" }
+		set_division_template_lock = { division_template = "Voluntarios Argentinos" is_locked = no }
+		clear_division_template_cap = { division_template = "Voluntarios Argentinos" }
+	}
+  	if = {
+		limit = { has_template = "Peasant Militia" }
+		set_division_template_lock = { division_template = "Peasant Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Peasant Militia" }
+	}
+  	if = {
+		limit = { has_template = "Trained Grenzbrigade" }
+		set_division_template_lock = { division_template = "Trained Grenzbrigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Trained Grenzbrigade" }
+	}
+  	if = {
+		limit = { has_template = "精锐步兵师" }
+		set_division_template_lock = { division_template = "精锐步兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "精锐步兵师" }
+	}
+  	if = {
+		limit = { has_template = "Ugonskrust Division" }
+		set_division_template_lock = { division_template = "Ugonskrust Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Ugonskrust Division" }
+	}
+  	if = {
+		limit = { has_template = "火十字团" }
+		set_division_template_lock = { division_template = "火十字团" is_locked = no }
+		clear_division_template_cap = { division_template = "火十字团" }
+	}
+  	if = {
+		limit = { has_template = "Armoured Infantry" }
+		set_division_template_lock = { division_template = "Armoured Infantry" is_locked = no }
+		clear_division_template_cap = { division_template = "Armoured Infantry" }
+	}
+  	if = {
+		limit = { has_template = "Elder Dragon" }
+		set_division_template_lock = { division_template = "Elder Dragon" is_locked = no }
+		clear_division_template_cap = { division_template = "Elder Dragon" }
+	}
+  	if = {
+		limit = { has_template = "预备师" }
+		set_division_template_lock = { division_template = "预备师" is_locked = no }
+		clear_division_template_cap = { division_template = "预备师" }
+	}
+  	if = {
+		limit = { has_template = "Légion Española" }
+		set_division_template_lock = { division_template = "Légion Española" is_locked = no }
+		clear_division_template_cap = { division_template = "Légion Española" }
+	}
+  	if = {
+		limit = { has_template = "赤军" }
+		set_division_template_lock = { division_template = "赤军" is_locked = no }
+		clear_division_template_cap = { division_template = "赤军" }
+	}
+  	if = {
+		limit = { has_template = "黑衫旅" }
+		set_division_template_lock = { division_template = "黑衫旅" is_locked = no }
+		clear_division_template_cap = { division_template = "黑衫旅" }
+	}
+  	if = {
+		limit = { has_template = "祖国阵线游击队" }
+		set_division_template_lock = { division_template = "祖国阵线游击队" is_locked = no }
+		clear_division_template_cap = { division_template = "祖国阵线游击队" }
+	}
+  	if = {
+		limit = { has_template = "保皇旅" }
+		set_division_template_lock = { division_template = "保皇旅" is_locked = no }
+		clear_division_template_cap = { division_template = "保皇旅" }
+	}
+  	if = {
+		limit = { has_template = "Lithuanian Leopold" }
+		set_division_template_lock = { division_template = "Lithuanian Leopold" is_locked = no }
+		clear_division_template_cap = { division_template = "Lithuanian Leopold" }
+	}
+  	if = {
+		limit = { has_template = "Shuzui Juntuan" }
+		set_division_template_lock = { division_template = "Shuzui Juntuan" is_locked = no }
+		clear_division_template_cap = { division_template = "Shuzui Juntuan" }
+	}
+  	if = {
+		limit = { has_template = "Forced Conscripts" }
+		set_division_template_lock = { division_template = "Forced Conscripts" is_locked = no }
+		clear_division_template_cap = { division_template = "Forced Conscripts" }
+	}
+  	if = {
+		limit = { has_template = "Sentinel of the Motherland" }
+		set_division_template_lock = { division_template = "Sentinel of the Motherland" is_locked = no }
+		clear_division_template_cap = { division_template = "Sentinel of the Motherland" }
+	}
+  	if = {
+		limit = { has_template = "Militia Division" }
+		set_division_template_lock = { division_template = "Militia Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Militia Division" }
+	}
+  	if = {
+		limit = { has_template = "Irregular Camelry Division" }
+		set_division_template_lock = { division_template = "Irregular Camelry Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Irregular Camelry Division" }
+	}
+  	if = {
+		limit = { has_template = "法兰西内地军半旅" }
+		set_division_template_lock = { division_template = "法兰西内地军半旅" is_locked = no }
+		clear_division_template_cap = { division_template = "法兰西内地军半旅" }
+	}
+  	if = {
+		limit = { has_template = "Resistance Fighters" }
+		set_division_template_lock = { division_template = "Resistance Fighters" is_locked = no }
+		clear_division_template_cap = { division_template = "Resistance Fighters" }
+	}
+  	if = {
+		limit = { has_template = "Seafarer Banner" }
+		set_division_template_lock = { division_template = "Seafarer Banner" is_locked = no }
+		clear_division_template_cap = { division_template = "Seafarer Banner" }
+	}
+  	if = {
+		limit = { has_template = "游击队" }
+		set_division_template_lock = { division_template = "游击队" is_locked = no }
+		clear_division_template_cap = { division_template = "游击队" }
+	}
+  	if = {
+		limit = { has_template = "中非干涉军" }
+		set_division_template_lock = { division_template = "中非干涉军" is_locked = no }
+		clear_division_template_cap = { division_template = "中非干涉军" }
+	}
+  	if = {
+		limit = { has_template = "Free Griffon Division" }
+		set_division_template_lock = { division_template = "Free Griffon Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Free Griffon Division" }
+	}
+  	if = {
+		limit = { has_template = "GSSN Divisjon" }
+		set_division_template_lock = { division_template = "GSSN Divisjon" is_locked = no }
+		clear_division_template_cap = { division_template = "GSSN Divisjon" }
+	}
+  	if = {
+		limit = { has_template = "托米斯拉夫皇家卫队" }
+		set_division_template_lock = { division_template = "托米斯拉夫皇家卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "托米斯拉夫皇家卫队" }
+	}
+  	if = {
+		limit = { has_template = "自由印度军团" }
+		set_division_template_lock = { division_template = "自由印度军团" is_locked = no }
+		clear_division_template_cap = { division_template = "自由印度军团" }
+	}
+  	if = {
+		limit = { has_template = "Battaglione Azad Hindoustan" }
+		set_division_template_lock = { division_template = "Battaglione Azad Hindoustan" is_locked = no }
+		clear_division_template_cap = { division_template = "Battaglione Azad Hindoustan" }
+	}
+  	if = {
+		limit = { has_template = "共和驻军师" }
+		set_division_template_lock = { division_template = "共和驻军师" is_locked = no }
+		clear_division_template_cap = { division_template = "共和驻军师" }
+	}
+  	if = {
+		limit = { has_template = "Japanese People's Regiment" }
+		set_division_template_lock = { division_template = "Japanese People's Regiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Japanese People's Regiment" }
+	}
+  	if = {
+		limit = { has_template = "国王扈从师" }
+		set_division_template_lock = { division_template = "国王扈从师" is_locked = no }
+		clear_division_template_cap = { division_template = "国王扈从师" }
+	}
+  	if = {
+		limit = { has_template = "抵抗战士" }
+		set_division_template_lock = { division_template = "抵抗战士" is_locked = no }
+		clear_division_template_cap = { division_template = "抵抗战士" }
+	}
+  	if = {
+		limit = { has_template = "Jaeger SS Division" }
+		set_division_template_lock = { division_template = "Jaeger SS Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Jaeger SS Division" }
+	}
+  	if = {
+		limit = { has_template = "中部非洲干预部队" }
+		set_division_template_lock = { division_template = "中部非洲干预部队" is_locked = no }
+		clear_division_template_cap = { division_template = "中部非洲干预部队" }
+	}
+  	if = {
+		limit = { has_template = "Punakaarti" }
+		set_division_template_lock = { division_template = "Punakaarti" is_locked = no }
+		clear_division_template_cap = { division_template = "Punakaarti" }
+	}
+  	if = {
+		limit = { has_template = "División de la Guardia de Asalto" }
+		set_division_template_lock = { division_template = "División de la Guardia de Asalto" is_locked = no }
+		clear_division_template_cap = { division_template = "División de la Guardia de Asalto" }
+	}
+  	if = {
+		limit = { has_template = "Paratroopers" }
+		set_division_template_lock = { division_template = "Paratroopers" is_locked = no }
+		clear_division_template_cap = { division_template = "Paratroopers" }
+	}
+  	if = {
+		limit = { has_template = "Experimental MBT Division" }
+		set_division_template_lock = { division_template = "Experimental MBT Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Experimental MBT Division" }
+	}
+  	if = {
+		limit = { has_template = "Rengou Tokubetsu Rikusentai" }
+		set_division_template_lock = { division_template = "Rengou Tokubetsu Rikusentai" is_locked = no }
+		clear_division_template_cap = { division_template = "Rengou Tokubetsu Rikusentai" }
+	}
+  	if = {
+		limit = { has_template = "folkets hær" }
+		set_division_template_lock = { division_template = "folkets hær" is_locked = no }
+		clear_division_template_cap = { division_template = "folkets hær" }
+	}
+  	if = {
+		limit = { has_template = "Somatophylakes" }
+		set_division_template_lock = { division_template = "Somatophylakes" is_locked = no }
+		clear_division_template_cap = { division_template = "Somatophylakes" }
+	}
+  	if = {
+		limit = { has_template = "轻装旅" }
+		set_division_template_lock = { division_template = "轻装旅" is_locked = no }
+		clear_division_template_cap = { division_template = "轻装旅" }
+	}
+  	if = {
+		limit = { has_template = "Soviet Volunteers" }
+		set_division_template_lock = { division_template = "Soviet Volunteers" is_locked = no }
+		clear_division_template_cap = { division_template = "Soviet Volunteers" }
+	}
+  	if = {
+		limit = { has_template = "Yugoslavian Defence Army" }
+		set_division_template_lock = { division_template = "Yugoslavian Defence Army" is_locked = no }
+		clear_division_template_cap = { division_template = "Yugoslavian Defence Army" }
+	}
+  	if = {
+		limit = { has_template = "亚美尼亚志愿军" }
+		set_division_template_lock = { division_template = "亚美尼亚志愿军" is_locked = no }
+		clear_division_template_cap = { division_template = "亚美尼亚志愿军" }
+	}
+  	if = {
+		limit = { has_template = "利比亚民兵师" }
+		set_division_template_lock = { division_template = "利比亚民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "利比亚民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Northumberland County Division" }
+		set_division_template_lock = { division_template = "Northumberland County Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Northumberland County Division" }
+	}
+  	if = {
+		limit = { has_template = "党属卫队民兵师" }
+		set_division_template_lock = { division_template = "党属卫队民兵师" is_locked = no }
+		clear_division_template_cap = { division_template = "党属卫队民兵师" }
+	}
+  	if = {
+		limit = { has_template = "Peasant Group" }
+		set_division_template_lock = { division_template = "Peasant Group" is_locked = no }
+		clear_division_template_cap = { division_template = "Peasant Group" }
+	}
+  	if = {
+		limit = { has_template = "Lushian Levy" }
+		set_division_template_lock = { division_template = "Lushian Levy" is_locked = no }
+		clear_division_template_cap = { division_template = "Lushian Levy" }
+	}
+  	if = {
+		limit = { has_template = "西非干预部队" }
+		set_division_template_lock = { division_template = "西非干预部队" is_locked = no }
+		clear_division_template_cap = { division_template = "西非干预部队" }
+	}
+  	if = {
+		limit = { has_template = "Truppe Irregolari di Cammelli" }
+		set_division_template_lock = { division_template = "Truppe Irregolari di Cammelli" is_locked = no }
+		clear_division_template_cap = { division_template = "Truppe Irregolari di Cammelli" }
+	}
+  	if = {
+		limit = { has_template = "Trained Infanterie-Abteilung" }
+		set_division_template_lock = { division_template = "Trained Infanterie-Abteilung" is_locked = no }
+		clear_division_template_cap = { division_template = "Trained Infanterie-Abteilung" }
+	}
+  	if = {
+		limit = { has_template = "荣誉卫队" }
+		set_division_template_lock = { division_template = "荣誉卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "荣誉卫队" }
+	}
+  	if = {
+		limit = { has_template = "尼德兰国土风暴国民卫队" }
+		set_division_template_lock = { division_template = "尼德兰国土风暴国民卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "尼德兰国土风暴国民卫队" }
+	}
+  	if = {
+		limit = { has_template = "赤卫军" }
+		set_division_template_lock = { division_template = "赤卫军" is_locked = no }
+		clear_division_template_cap = { division_template = "赤卫军" }
+	}
+  	if = {
+		limit = { has_template = "Imperial Eastern Expeditionary Force" }
+		set_division_template_lock = { division_template = "Imperial Eastern Expeditionary Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Imperial Eastern Expeditionary Force" }
+	}
+  	if = {
+		limit = { has_template = "Fizarana Infantry" }
+		set_division_template_lock = { division_template = "Fizarana Infantry" is_locked = no }
+		clear_division_template_cap = { division_template = "Fizarana Infantry" }
+	}
+  	if = {
+		limit = { has_template = "森林兄弟游击队" }
+		set_division_template_lock = { division_template = "森林兄弟游击队" is_locked = no }
+		clear_division_template_cap = { division_template = "森林兄弟游击队" }
+	}
+  	if = {
+		limit = { has_template = "国民警卫队" }
+		set_division_template_lock = { division_template = "国民警卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "国民警卫队" }
+	}
+  	if = {
+		limit = { has_template = "Free Lances" }
+		set_division_template_lock = { division_template = "Free Lances" is_locked = no }
+		clear_division_template_cap = { division_template = "Free Lances" }
+	}
+  	if = {
+		limit = { has_template = "Brigata Carabinieri" }
+		set_division_template_lock = { division_template = "Brigata Carabinieri" is_locked = no }
+		clear_division_template_cap = { division_template = "Brigata Carabinieri" }
+	}
+  	if = {
+		limit = { has_template = "Kuva-yi Milliye Tugayi" }
+		set_division_template_lock = { division_template = "Kuva-yi Milliye Tugayi" is_locked = no }
+		clear_division_template_cap = { division_template = "Kuva-yi Milliye Tugayi" }
+	}
+  	if = {
+		limit = { has_template = "西班牙独立师" }
+		set_division_template_lock = { division_template = "西班牙独立师" is_locked = no }
+		clear_division_template_cap = { division_template = "西班牙独立师" }
+	}
+  	if = {
+		limit = { has_template = "警备队" }
+		set_division_template_lock = { division_template = "警备队" is_locked = no }
+		clear_division_template_cap = { division_template = "警备队" }
+	}
+  	if = {
+		limit = { has_template = "SS Motorisierte Division" }
+		set_division_template_lock = { division_template = "SS Motorisierte Division" is_locked = no }
+		clear_division_template_cap = { division_template = "SS Motorisierte Division" }
+	}
+  	if = {
+		limit = { has_template = "Mechanized Brigade" }
+		set_division_template_lock = { division_template = "Mechanized Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Mechanized Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Heavy Security Squadron" }
+		set_division_template_lock = { division_template = "Heavy Security Squadron" is_locked = no }
+		clear_division_template_cap = { division_template = "Heavy Security Squadron" }
+	}
+  	if = {
+		limit = { has_template = "Hirdregiment" }
+		set_division_template_lock = { division_template = "Hirdregiment" is_locked = no }
+		clear_division_template_cap = { division_template = "Hirdregiment" }
+	}
+  	if = {
+		limit = { has_template = "Central Africa Defense Force" }
+		set_division_template_lock = { division_template = "Central Africa Defense Force" is_locked = no }
+		clear_division_template_cap = { division_template = "Central Africa Defense Force" }
+	}
+  	if = {
+		limit = { has_template = "Citizen Militia" }
+		set_division_template_lock = { division_template = "Citizen Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Citizen Militia" }
+	}
+  	if = {
+		limit = { has_template = "OOSSR" }
+		set_division_template_lock = { division_template = "OOSSR" is_locked = no }
+		clear_division_template_cap = { division_template = "OOSSR" }
+	}
+  	if = {
+		limit = { has_template = "Thestral Jagers" }
+		set_division_template_lock = { division_template = "Thestral Jagers" is_locked = no }
+		clear_division_template_cap = { division_template = "Thestral Jagers" }
+	}
+  	if = {
+		limit = { has_template = "西非干涉军" }
+		set_division_template_lock = { division_template = "西非干涉军" is_locked = no }
+		clear_division_template_cap = { division_template = "西非干涉军" }
+	}
+  	if = {
+		limit = { has_template = "Batalhões de Presos" }
+		set_division_template_lock = { division_template = "Batalhões de Presos" is_locked = no }
+		clear_division_template_cap = { division_template = "Batalhões de Presos" }
+	}
+  	if = {
+		limit = { has_template = "Leichte Brigade" }
+		set_division_template_lock = { division_template = "Leichte Brigade" is_locked = no }
+		clear_division_template_cap = { division_template = "Leichte Brigade" }
+	}
+  	if = {
+		limit = { has_template = "Pakistani Liberation Army" }
+		set_division_template_lock = { division_template = "Pakistani Liberation Army" is_locked = no }
+		clear_division_template_cap = { division_template = "Pakistani Liberation Army" }
+	}
+  	if = {
+		limit = { has_template = "统工党青年旅" }
+		set_division_template_lock = { division_template = "统工党青年旅" is_locked = no }
+		clear_division_template_cap = { division_template = "统工党青年旅" }
+	}
+  	if = {
+		limit = { has_template = "Righteous Vanguards" }
+		set_division_template_lock = { division_template = "Righteous Vanguards" is_locked = no }
+		clear_division_template_cap = { division_template = "Righteous Vanguards" }
+	}
+  	if = {
+		limit = { has_template = "Camicie Nere" }
+		set_division_template_lock = { division_template = "Camicie Nere" is_locked = no }
+		clear_division_template_cap = { division_template = "Camicie Nere" }
+	}
+  	if = {
+		limit = { has_template = "Abiyot Yennterib" }
+		set_division_template_lock = { division_template = "Abiyot Yennterib" is_locked = no }
+		clear_division_template_cap = { division_template = "Abiyot Yennterib" }
+	}
+  	if = {
+		limit = { has_template = "武装警察" }
+		set_division_template_lock = { division_template = "武装警察" is_locked = no }
+		clear_division_template_cap = { division_template = "武装警察" }
+	}
+  	if = {
+		limit = { has_template = "Order Militant" }
+		set_division_template_lock = { division_template = "Order Militant" is_locked = no }
+		clear_division_template_cap = { division_template = "Order Militant" }
+	}
+  	if = {
+		limit = { has_template = "中非国防军" }
+		set_division_template_lock = { division_template = "中非国防军" is_locked = no }
+		clear_division_template_cap = { division_template = "中非国防军" }
+	}
+  	if = {
+		limit = { has_template = "Experimental SPART Division" }
+		set_division_template_lock = { division_template = "Experimental SPART Division" is_locked = no }
+		clear_division_template_cap = { division_template = "Experimental SPART Division" }
+	}
+  	if = {
+		limit = { has_template = "Divisione Coloniale" }
+		set_division_template_lock = { division_template = "Divisione Coloniale" is_locked = no }
+		clear_division_template_cap = { division_template = "Divisione Coloniale" }
+	}
+  	if = {
+		limit = { has_template = "边防军" }
+		set_division_template_lock = { division_template = "边防军" is_locked = no }
+		clear_division_template_cap = { division_template = "边防军" }
+	}
+  	if = {
+		limit = { has_template = "Divisione Partigiana" }
+		set_division_template_lock = { division_template = "Divisione Partigiana" is_locked = no }
+		clear_division_template_cap = { division_template = "Divisione Partigiana" }
+	}
+  	if = {
+		limit = { has_template = "Freikorps" }
+		set_division_template_lock = { division_template = "Freikorps" is_locked = no }
+		clear_division_template_cap = { division_template = "Freikorps" }
+	}
+  	if = {
+		limit = { has_template = "Golden-Horn Militia" }
+		set_division_template_lock = { division_template = "Golden-Horn Militia" is_locked = no }
+		clear_division_template_cap = { division_template = "Golden-Horn Militia" }
+	}
+  	if = {
+		limit = { has_template = "银衫军" }
+		set_division_template_lock = { division_template = "银衫军" is_locked = no }
+		clear_division_template_cap = { division_template = "银衫军" }
+	}
+  	if = {
+		limit = { has_template = "共和警卫队" }
+		set_division_template_lock = { division_template = "共和警卫队" is_locked = no }
+		clear_division_template_cap = { division_template = "共和警卫队" }
+	}
+  	if = {
+		limit = { has_template = "Banda Indigena Irregolare" }
+		set_division_template_lock = { division_template = "Banda Indigena Irregolare" is_locked = no }
+		clear_division_template_cap = { division_template = "Banda Indigena Irregolare" }
+	}
+  	if = {
+		limit = { has_template = "叙利亚国防军" }
+		set_division_template_lock = { division_template = "叙利亚国防军" is_locked = no }
+		clear_division_template_cap = { division_template = "叙利亚国防军" }
+	}
+  	if = {
+		limit = { has_template = "Narodnaya Oborony Otrjad" }
+		set_division_template_lock = { division_template = "Narodnaya Oborony Otrjad" is_locked = no }
+		clear_division_template_cap = { division_template = "Narodnaya Oborony Otrjad" }
+	}
+  	if = {
+		limit = { has_template = "Disband" }
+		set_division_template_lock = { division_template = "Disband" is_locked = no }
+		clear_division_template_cap = { division_template = "Disband" }
+	}
+  	if = {
+		limit = { has_template = "突击卫队师" }
+		set_division_template_lock = { division_template = "突击卫队师" is_locked = no }
+		clear_division_template_cap = { division_template = "突击卫队师" }
+	}
+  	if = {
+		limit = { has_template = "防卫民兵" }
+		set_division_template_lock = { division_template = "防卫民兵" is_locked = no }
+		clear_division_template_cap = { division_template = "防卫民兵" }
+	}
+  	if = {
+		limit = { has_template = "Mobile Headquarter" }
+		set_division_template_lock = { division_template = "Mobile Headquarter" is_locked = no }
+		clear_division_template_cap = { division_template = "Mobile Headquarter" }
+	}
+  	if = {
+		limit = { has_template = "Red Guards" }
+		set_division_template_lock = { division_template = "Red Guards" is_locked = no }
+		clear_division_template_cap = { division_template = "Red Guards" }
+	}
+  	if = {
+		limit = { has_template = "Division of the North" }
+		set_division_template_lock = { division_template = "Division of the North" is_locked = no }
+		clear_division_template_cap = { division_template = "Division of the North" }
+	}
+  	if = {
+		limit = { has_template = "Partisan Group" }
+		set_division_template_lock = { division_template = "Partisan Group" is_locked = no }
+		clear_division_template_cap = { division_template = "Partisan Group" }
+	}
+  }

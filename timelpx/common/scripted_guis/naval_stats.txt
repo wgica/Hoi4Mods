@@ -1,0 +1,95 @@
+scripted_gui = {
+  naval_stats = {
+    window_name = "naval_stats_window"
+    context_type = player_context
+
+    visible = {
+	has_country_flag = open_naval_stats
+    }
+
+    effects = {
+    }
+
+    triggers = {
+    }
+
+    dynamic_lists = {
+	}
+
+    properties = {
+        USA = {
+		    image = [USA.GetFlag]
+		}
+        ENG = {
+		    image = [ENG.GetFlag]
+		}
+        FRA = {
+		    image = [FRA.GetFlag]
+		}
+        GER = {
+		    image = [GER.GetFlag]
+		}		
+        POL = {
+		    image = [POL.GetFlag]
+		}		
+        TUR = {
+		    image = [TUR.GetFlag]
+		}	
+        ITA = {
+		    image = [ITA.GetFlag]
+		}	
+        JAP = {
+		    image = [JAP.GetFlag]
+		}	
+        CHI = {
+		    image = [CHI.GetFlag]
+		}
+        SOV = {
+		    image = [SOV.GetFlag]
+		}
+        INS = {
+		    image = [INS.GetFlag]
+		}
+        NZL = {
+		    image = [NZL.GetFlag]
+		}
+        TUR = {
+		    image = [TUR.GetFlag]
+		}
+        SOV = {
+		    image = [SOV.GetFlag]
+		}
+        POL = {
+		    image = [POL.GetFlag]
+		}
+        DEN = {
+		    image = [DEN.GetFlag]
+		}
+        NOR = {
+		    image = [NOR.GetFlag]
+		}		
+        ROM = {
+		    image = [ROM.GetFlag]
+		}		
+        BUL = {
+		    image = [BUL.GetFlag]
+		}			
+    }
+
+    ai_enabled = {
+		always = no
+    }
+
+    ai_test_interval = 290  # The higher, the long it takes the ai to do actions
+	ai_test_variance = 0.5
+
+    ai_check = {
+    }
+
+    ai_check_scope = {
+    }
+
+    ai_weights = {
+    }
+  }
+}

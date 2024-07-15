@@ -1,0 +1,27 @@
+wgic_uuu_dcs_ctg = {
+	wgic_uuu_core_dcs = {
+		available = {
+			is_ai = no
+		}
+		visible = {
+			is_ai = no
+		}
+		cost = 0
+		complete_effect = {
+			uuu_core_eff = yes
+		}
+	}
+
+	wgic_uuu_core_sub = {
+		available = {
+			is_ai = no
+		}
+		visible = {
+			is_ai = no
+		}
+		cost = 0
+		complete_effect = {
+			uuu_sub_eff = yes
+		}
+	}
+}

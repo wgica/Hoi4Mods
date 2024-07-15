@@ -1,0 +1,175 @@
+add_namespace = sirius
+
+country_event = {
+	id = sirius.1
+	is_triggered_only = yes
+
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			random_country = {
+				random_character = {
+					set_nationality = ROOT
+					add_country_leader_role = {
+						country_leader = {
+							ideology = conservatism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = liberalism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = socialism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = populism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = marxism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = leninism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = stalinism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = anti_revisionism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = anarchist_communism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = nazism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = gen_nazism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = fascism_ideology
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = falangism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = rexism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = despotism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = oligarchism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = anarchism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = moderatism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+					add_country_leader_role = {
+						country_leader = {
+							ideology = centrism
+							traits = { }
+							expire = "1965.1.1.1"
+						}
+						promote_leader = yes
+					}
+				}
+			}
+			sirius_random_traits = yes
+			sirius_random_traits = yes
+			sirius_random_traits = yes
+			sirius_random_traits = yes
+			sirius_random_traits = yes
+		}
+	}	
+}

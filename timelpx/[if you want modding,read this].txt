@@ -1,0 +1,16 @@
+common/defines/
+cm_graphics.lua ---> change how unit counters display on map
+
+
+
+interface/ 
+alerts.gui --->  move place of alerts in topbar , i keep this thing to keep button of observe
+topbar.gui --->  change how topbar looks like
+mapicons_counter.gui ---> change how unit counters looks like, the code inside will replace same code in mapicon.gui
+peaceconferencewindow.gui --> i dont know, i stole this from other mod
+popupwindow.gui　--->hide popwindows
+theatreselector ---> hide theatre and generals.
+datefont ---> add a font for date text
+
+
+gfx/ --->.dds images for counters and ui

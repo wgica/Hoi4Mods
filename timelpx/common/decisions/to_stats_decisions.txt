@@ -1,0 +1,162 @@
+to_stats = {
+	general_stats = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = open_general_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	remove_general_stats = {
+
+		icon = generic_industry
+
+		available = {
+			has_country_flag = open_general_stats
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			clr_country_flag = open_general_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	industry_stats = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = open_industry_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	remove_industry_stats = {
+
+		icon = generic_industry
+
+		available = {
+			has_country_flag = open_industry_stats
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			clr_country_flag = open_industry_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	naval_stats = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = open_naval_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	remove_navy_stats = {
+
+		icon = generic_industry
+
+		available = {
+			has_country_flag = open_naval_stats
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			clr_country_flag = open_naval_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	economy_stats = {
+
+		icon = generic_industry
+
+		available = {
+			is_ai = no
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			set_country_flag = open_economy_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	remove_economy_stats = {
+
+		icon = generic_industry
+
+		available = {
+			has_country_flag = open_economy_stats
+		}
+
+		fire_only_once = no
+
+		cost = 0
+
+		complete_effect = {
+			clr_country_flag = open_economy_stats
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

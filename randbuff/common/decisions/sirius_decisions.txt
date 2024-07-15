@@ -1,0 +1,16 @@
+sirius_random_traits_category = {
+	sirius_random_traits = {
+		available = {
+			is_ai = no
+		}
+		visible = {
+			is_ai = no
+		}
+		cost = 100
+		complete_effect = {
+			country_event = {
+				id = sirius.1
+			}
+		}
+	}
+}

@@ -1,0 +1,1 @@
+uuu_sub_eff = { set_technology = { uuu_tech_1 = 1 } }

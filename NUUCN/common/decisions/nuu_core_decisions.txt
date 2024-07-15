@@ -1,0 +1,14 @@
+wgic_nuu_dcs_ctg = {
+	wgic_nuu_core_dcs = {
+		available = {
+			is_ai = no
+		}
+		visible = {
+			is_ai = no
+		}
+		cost = 0
+		complete_effect = {
+			nuu_core_eff = yes
+		}
+	}
+}

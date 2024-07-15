@@ -1,0 +1,6 @@
+wgic_uuu_dcs_ctg = {
+	allowed = {
+		always = yes
+	}
+    priority = 999
+}

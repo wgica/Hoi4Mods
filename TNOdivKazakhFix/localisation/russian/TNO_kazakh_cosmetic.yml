@@ -1,0 +1,41 @@
+﻿l_russian:
+  #Kazakhstan
+ AKT_regional_unifier_national_socialism: "Казахское Государство"
+ AKT_regional_unifier_national_socialism_DEF: "Казахское Государство"
+ AKT_regional_unifier_national_socialism_ADJ: "Казахск."
+ AKT_regional_unifier_ultranationalism: "Казахское Государство"
+ AKT_regional_unifier_ultranationalism_DEF: "Казахское Государство"
+ AKT_regional_unifier_ultranationalism_ADJ: "Казахск."
+ 
+ ARL_regional_unifier_despotism: "Национальная Республика Казахстан"
+ ARL_regional_unifier_despotism_DEF: "Национальная Республика Казахстан"
+ ARL_regional_unifier_despotism_ADJ: "Казахск."
+ 
+ DER_regional_unifier_despotism: "Исламская Республика Казахстан"
+ DER_regional_unifier_despotism_DEF: "Исламская Республика Казахстан"
+ DER_regional_unifier_despotism_ADJ: "Казахск."
+ 
+ KAZ_regional_unifier_communist: "Казахская Советская Социалистическая Республика"
+ KAZ_regional_unifier_communist_DEF: "Казахская Советская Социалистическая Республика"
+ KAZ_regional_unifier_communist_ADJ: "Казахск."
+ 
+ KOK_regional_unifier_despotism: "Казахское Ханство"
+ KOK_regional_unifier_despotism_DEF: "Казахское Ханство"
+ KOK_regional_unifier_despotism_ADJ: "Казахск."
+ 
+ PAV_regional_unifier_liberal_conservatism: "Республика Казахстан"
+ PAV_regional_unifier_liberal_conservatism_DEF: "Республика Казахстан"
+ PAV_regional_unifier_liberal_conservatism_ADJ: "Казахск."
+ PAV_regional_unifier_liberalism: "Республика Казахстан"
+ PAV_regional_unifier_liberalism_DEF: "Республика Казахстан"
+ PAV_regional_unifier_liberalism_ADJ: "Казахск."
+ PAV_regional_unifier_conservatism: "Республика Казахстан"
+ PAV_regional_unifier_conservatism_DEF: "Республика Казахстан"
+ PAV_regional_unifier_conservatism_ADJ: "Казахск."
+ 
+ KAZ_NPL_progressivism: "Республика Казахстан"
+ ARL_NPL_paternalism: "Республика Актобе"
+ KAZ_NPL_progressivism_DEF: "Республика Казахстан"
+ ARL_NPL_paternalism_DEF: "Республика Актобе"
+ KAZ_NPL_progressivism_ADJ: "Казахск."
+ ARL_NPL_paternalism_ADJ: "Актобенск"

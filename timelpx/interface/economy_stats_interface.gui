@@ -1,0 +1,600 @@
+guiTypes = {
+	containerWindowType = {
+		name = "economy_stats_window"
+		position = { x = -550 y = 0}	
+		size = { width = 593 height = 279 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_economy_stats_background"
+			position = { x= 110 y = 105 }
+
+		}
+		iconType ={
+			name ="close_general_stats"
+			spriteType = "GFX_close_window"
+		    position = { x= 5 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}
+######### Flags
+		iconType ={
+			name ="USA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 150 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="ENG"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 175 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="FRA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 200 }
+			Orientation = "UPPER_LEFT"
+		}		
+		iconType ={
+			name ="JAP"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 225 }
+			Orientation = "UPPER_LEFT"
+		}			
+		iconType ={
+			name ="ITA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 250 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="SOV"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 275 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="GER"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 300 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="CHI"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 325 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="POL"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 350 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+
+######### GDP
+		instantTextboxType = {
+			name = "USA1"
+			position = { x =  160 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG1"
+			position = { x =  160 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA1"
+			position = { x =  160 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP1"
+			position = { x =  160 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA1"
+			position = { x =  160 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV1"
+			position = { x =  160 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER1"
+			position = { x =  160 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI1"
+			position = { x =  160 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL1"
+			position = { x =  160 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.gdpmn|3]B"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### GDP Growth
+		instantTextboxType = {
+			name = "USA2"
+			position = { x =  270 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG2"
+			position = { x =  270 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA2"
+			position = { x =  270 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP2"
+			position = { x =  270 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP2.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA2"
+			position = { x =  270 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV2"
+			position = { x =  270 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER2"
+			position = { x =  270 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI2"
+			position = { x =  270 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL2"
+			position = { x =  270 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.gdp_growth|2]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### GDP per capita
+		instantTextboxType = {
+			name = "USA3"
+			position = { x =  390 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG3"
+			position = { x =  390 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA3"
+			position = { x =  390 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP3"
+			position = { x =  390 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA3"
+			position = { x =  390 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV3"
+			position = { x =  390 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER3"
+			position = { x =  390 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI3"
+			position = { x =  390 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL3"
+			position = { x =  390 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.gdp_per_capita|2]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Proportion
+		instantTextboxType = {
+			name = "USA4"
+			position = { x =  510 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.gdp_proportion|3]%"	
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG4"
+			position = { x =  510 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.gdp_proportion|3]%"	
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA4"
+			position = { x =  510 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.gdp_proportion|3]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP4"
+			position = { x =  510 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.gdp_proportion|3]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA4"
+			position = { x =  510 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.gdp_proportion|3]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV4"
+			position = { x =  510 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.gdp_proportion|3]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER4"
+			position = { x =  510 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.gdp_proportion|3]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI4"
+			position = { x =  510 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.gdp_proportion|3]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL4"
+			position = { x =  510 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.gdp_proportion|3]%"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Factories
+		instantTextboxType = {
+			name = "USA5"
+			position = { x =  630 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG5"
+			position = { x =  630 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA5"
+			position = { x =  630 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "JAP5"
+			position = { x =  630 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?JAP.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA5"
+			position = { x =  630 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV5"
+			position = { x =  630 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER5"
+			position = { x =  630 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "CHI5"
+			position = { x =  630 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?CHI.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL5"
+			position = { x =  630 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+################# Headers
+		instantTextboxType = {
+			name = "OVERVIEW"
+			position = { x =  120 y = 105 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "YVanillia Economy Stats"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "H-Total GDP"
+			position = { x =  160 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GTotal GDP"
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "H-GDP Growth"
+			position = { x =  260 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GGDP Growth"
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "H-GDP per Capita"
+			position = { x =  380 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GGDP per Capita"
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "H-Proportion"
+			position = { x =  500 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GProportion"
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "H-Industry"
+			position = { x =  620 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GIndustries"
+			maxHeight = 20
+			fixedsize = yes
+		}
+##
+
+
+
+
+	}
+}

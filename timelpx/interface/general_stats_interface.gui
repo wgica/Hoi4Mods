@@ -1,0 +1,702 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "general_stats_window"
+		position = { x = -550 y = 0}	
+		size = { width = 690 height= 279 }
+		orientation = center
+		origo = center
+		fade_time = 100
+		moveable = yes
+		fade_type = linear
+		click_to_front = no
+		clipping = no
+		
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_general_stats_background"
+			position = { x= 110 y = 105 }
+
+		}
+		iconType ={
+			name ="close_general_stats"
+			spriteType = "GFX_close_window"
+		    position = { x= 5 y = 7 }
+			Orientation = "UPPER_LEFT"
+		}	
+
+######### Flags
+		iconType ={
+			name ="USA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 150 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="ENG"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 175 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="FRA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 200 }
+			Orientation = "UPPER_LEFT"
+		}	
+		iconType ={
+			name ="YUG"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 225 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="ITA"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 250 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="SOV"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 275 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="GER"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 300 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="FIN"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 325 }
+			Orientation = "UPPER_LEFT"
+		}
+		iconType ={
+			name ="POL"
+			spriteType = "GFX_flag_small"
+			position = { x= 120 y = 350 }
+			Orientation = "UPPER_LEFT"
+		}
+
+######### Armies
+		instantTextboxType = {
+			name = "USA1"
+			position = { x =  160 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG1"
+			position = { x =  160 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA1"
+			position = { x =  160 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "YUG1"
+			position = { x =  160 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?YUG.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA1"
+			position = { x =  160 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV1"
+			position = { x =  160 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER1"
+			position = { x =  160 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FIN1"
+			position = { x =  160 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FIN.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL1"
+			position = { x =  160 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_armies]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Manpower
+		instantTextboxType = {
+			name = "USA2"
+			position = { x =  270 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ENG2"
+			position = { x =  270 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "FRA2"
+			position = { x =  270 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "YUG2"
+			position = { x =  270 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?YUG.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ITA2"
+			position = { x =  270 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "SOV2"
+			position = { x =  270 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER2"
+			position = { x =  270 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FIN2"
+			position = { x =  270 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FIN.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL2"
+			position = { x =  270 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.GetNumManpowerTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Planes
+		instantTextboxType = {
+			name = "USA3"
+			position = { x =  390 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG3"
+			position = { x =  390 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA3"
+			position = { x =  390 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "YUG3"
+			position = { x =  390 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?YUG.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA3"
+			position = { x =  390 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV3"
+			position = { x =  390 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER3"
+			position = { x =  390 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FIN3"
+			position = { x =  390 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FIN.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL3"
+			position = { x =  390 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_deployed_planes]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Ships
+		instantTextboxType = {
+			name = "USA4"
+			position = { x =  510 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG4"
+			position = { x =  510 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "FRA4"
+			position = { x =  510 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "YUG4"
+			position = { x =  510 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?YUG.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ITA4"
+			position = { x =  510 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV4"
+			position = { x =  510 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER4"
+			position = { x =  510 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FIN4"
+			position = { x =  510 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FIN.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL4"
+			position = { x =  510 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_ships]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Factories
+		instantTextboxType = {
+			name = "USA5"
+			position = { x =  630 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG5"
+			position = { x =  630 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA5"
+			position = { x =  630 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "YUG5"
+			position = { x =  630 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?YUG.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA5"
+			position = { x =  630 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV5"
+			position = { x =  630 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER5"
+			position = { x =  630 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FIN5"
+			position = { x =  630 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FIN.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL5"
+			position = { x =  630 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.num_of_factories]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+######### Casualties
+		instantTextboxType = {
+			name = "USA6"
+			position = { x =  730 y = 150 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?USA.GetNumLossesTransformed]"	
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "ENG6"
+			position = { x =  730 y = 175 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ENG.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FRA6"
+			position = { x =  730 y = 200 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FRA.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "YUG6"
+			position = { x =  730 y = 225 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?YUG.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "ITA6"
+			position = { x =  730 y = 250 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?ITA.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "SOV6"
+			position = { x =  730 y = 275 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?SOV.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "GER6"
+			position = { x =  730 y = 300 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?GER.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "FIN6"
+			position = { x =  730 y = 325 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?FIN.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+		instantTextboxType = {
+			name = "POL6"
+			position = { x =  730 y = 350 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "[?POL.GetNumLossesTransformed]"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}
+################# Headers
+		instantTextboxType = {
+			name = "OVERVIEW"
+			position = { x =  120 y = 105 }
+			font = "hoi_24header"
+			borderSize = {x = 0 y = 0}
+			text = "Y国家概况"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-ARMY"
+			position = { x =  160 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GDivisions"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-MANPOWER"
+			position = { x =  260 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GManpower"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-AIRFORCE"
+			position = { x =  380 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GAirforce"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-SHIPS"
+			position = { x =  500 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GShips"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-INDUSTRY"
+			position = { x =  620 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GIndustry"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+		instantTextboxType = {
+			name = "H-CASUALTIES"
+			position = { x =  720 y = 130 }
+			font = "hoi_12header"
+			borderSize = {x = 0 y = 0}
+			text = "GCasualties"
+			maxWidth = 400
+			maxHeight = 20
+			fixedsize = yes
+		}	
+	}
+}
